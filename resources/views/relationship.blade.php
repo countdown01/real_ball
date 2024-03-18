@@ -150,7 +150,7 @@
                 <div>
                     <img class="w-6 h-6" src="{{asset('image/rubika.png')}}" alt=""/>
                 </div>
-                <a href="rubika://channel?id=love_momo">
+                <a href="https://rubika.ir/Fire__Ball">
                     <p class="cursor-pointer hover:text-blue-400">دنبال کردن</p>
                 </a>
             </div>
