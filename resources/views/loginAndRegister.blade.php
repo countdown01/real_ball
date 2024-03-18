@@ -49,13 +49,13 @@
     <div class="toggle-container">
         <div class="toggle">
             <div class="toggle-panel toggle-left">
-                <h1>!خوش برگشتی</h1>
-                <p>اطلاعات شخصی خود را وارد کنید تا از تمام ویژگی های سایت استفاده کنید</p>
+                <h1>!سلام دوست من</h1>
+                <p>با مشخصات شخصی خود ثبت نام کنید تا از همه امکانات سایت استفاده کنید</p>
                 <button class="hidden" id="login">ورود</button>
             </div>
             <div class="toggle-panel toggle-right">
-                <h1>!سلام دوست من</h1>
-                <p>با مشخصات شخصی خود ثبت نام کنید تا از همه امکانات سایت استفاده کنید</p>
+                <h1>!خوش برگشتی</h1>
+                <p>اطلاعات شخصی خود را وارد کنید تا از تمام ویژگی های سایت استفاده کنید</p>
                 <button class="hidden" id="register">ثبت نام</button>
             </div>
         </div>

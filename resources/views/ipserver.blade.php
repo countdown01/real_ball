@@ -435,13 +435,13 @@
     dir="rtl"
 >
     <div
-        class="bg-slate-200 grid grid-cols-4 justify-items-center rounded-lg pt-12 sm:pt-7 w-[740px] sm:w-210  h-64 md:w-1/2 sm:h-48"
+        class="bg-slate-200 grid grid-cols-4 justify-items-center rounded-lg pt-12 sm:pt-7 w-[1050px]  sm:w-210  h-72 md:w-1/2 sm:h-48"
     >
         <div class="flex flex-col">
             <img
                 src="{{asset('image/gta v.png')}}"
                 alt="minecraftsvg"
-                class="w-28 h-28 sm:w-20 sm:h-20 rounded-full"
+                class="w-36 h-36 sm:w-20 sm:h-20 rounded-full"
             />
             <p class="font-bold text-2xl sm:text-base pt-4 pr-4">GTA V</p>
             <p class="font-bold text-2xl sm:text-base">جی تی ای وی</p>
@@ -451,7 +451,7 @@
             <img
                 src="{{asset('image/mta.png')}}"
                 alt="minecraftsvg"
-                class="w-28 h-28 sm:w-20 sm:h-20 rounded-full"
+                class="w-36 h-36 sm:w-20 sm:h-20 rounded-full"
             />
             <p class="font-bold pt-4 text-2xl sm:text-base pr-6">Mta</p>
             <p class="font-bold pr-3 text-2xl sm:text-base">ام تی ای</p>
@@ -461,7 +461,7 @@
             <img
                 src="{{asset('image/samp.jfif')}}"
                 alt="minecraftsvg"
-                class="w-28 h-28 sm:w-20 sm:h-20 rounded-full"
+                class="w-36 h-36 sm:w-20 sm:h-20 rounded-full"
             />
             <p class="font-bold pt-4 text-2xl sm:text-base pr-4">Samp</p>
             <p class="font-bold pr-4 text-2xl sm:text-base">سمپ</p>
@@ -471,7 +471,7 @@
             <img
                 src="{{asset('image/minecraft.png')}}"
                 alt="minecraftsvg"
-                class="w-28 h-28 sm:w-20 sm:h-20 rounded-full"
+                class="w-36 h-36 sm:w-20 sm:h-20 rounded-full"
             />
             <p class="font-bold pt-4 text-2xl sm:text-base">Minecraft</p>
             <p class="font-bold pr-2 text-2xl sm:text-base">مایکرافت</p>
@@ -489,7 +489,7 @@
 
     <div class="flex gap-x-10 md:gap-x-80 mt-8">
         <div
-            class="flex items-center justify-center gap-x-4 sm:gap-x-8 bg-gradient-to-br from-lime-600 to-sky-500 w-72 h-24 md:w-52 md:h-20"
+            class="flex items-center justify-center gap-x-4 sm:gap-x-8 bg-gradient-to-br from-lime-600 to-sky-500 w-96 h-28 md:w-52 md:h-20"
         >
             <img
                 class="w-14 h-14 md:w-9 md:h-9"
@@ -506,7 +506,7 @@
         </div>
 
         <div
-            class="flex items-center justify-center gap-x-4 md:gap-x-8 bg-gradient-to-br from-purple-400 to-sky-500 w-72 h-24 sm:w-52 sm:h-20"
+            class="flex items-center justify-center gap-x-4 md:gap-x-8 bg-gradient-to-br from-purple-400 to-sky-500 w-96 h-28 sm:w-52 sm:h-20"
         >
             <img
                 srcset="
@@ -542,8 +542,8 @@
                     <span class="font-bold text-3xl md:text-base mr-20">Samp</span>
                 </div>
 
-                <div class="gap-x-20 md:gap-x-0 grid grid-cols-3 justify-items-center mr-96 mt-10">
-                    <div class="bg-slate-200/70 w-64 h-64 md:w-60 md:h-52">
+                <div class="gap-x-72 md:gap-x-0 grid grid-cols-3 justify-items-center mr-80 mt-10">
+                    <div class="bg-slate-200/70 w-80 h-80 md:w-60 md:h-52">
                         <div class="flex items-end justify-end">
                             <div
                                 class="bg-gray-300 flex items-center justify-center -mt-3 -ml-3 w-12 h-12 md:w-8 md:h-8 rounded-full"
@@ -566,26 +566,26 @@
                         </div>
 
                         <div
-                            class="flex items-center justify-center text-2xl md:text-base font-bold mt-[76px]"
+                            class="flex items-center justify-center text-3xl md:text-base font-bold mt-[76px]"
                             dir="ltr"
                         >
                             IP: -- -- --
                         </div>
 
                         <div
-                            class="bg-slate-300 flex items-center justify-center mt-10 mr-12 w-44 h-16 text-2xl md:text-base  md:w-36 md:h-12 font-bold rounded-tl-xl"
+                            class="bg-slate-300 flex items-center justify-center mt-24 mr-12 w-56 h-16 text-3xl md:text-base  md:w-36 md:h-12 font-bold rounded-tl-xl"
                         >
                             اسم سرور
                         </div>
                     </div>
 
-                    <div class="bg-slate-200/70 w-64 h-64 md:w-60 md:h-52">
+                    <div class="bg-slate-200/70 w-80 h-80 md:w-60 md:h-52">
                         <div class="mr-32 grid grid-cols-2 justify-items-end">
                             <div>
                                 <div
-                                    class="bg-slate-300 w-40 md:w-36 h-14 -mt-4 rounded-lg font-bold"
+                                    class="bg-slate-300 w-52 h-16 md:w-36 md:h-14 -mt-4 rounded-lg font-bold"
                                 >
-                      <span class="flex items-center justify-center text-xl md:text-base"
+                      <span class="flex items-center justify-center text-2xl md:text-base"
                       >پیشنهاد توپ اتشین</span
                       >
                                     <div class="flex items-end justify-end">
@@ -595,7 +595,7 @@
                                             viewBox="0 0 24 24"
                                             stroke-width="1.5"
                                             stroke="currentColor"
-                                            class="w-6 h-6"
+                                            class="w-8 h-8 md:w-6 md:h-6"
                                         >
                                             <path
                                                 stroke-linecap="round"
@@ -628,26 +628,26 @@
                         </div>
 
                         <div
-                            class="flex items-center justify-center text-2xl md:text-base font-bold mt-[72px] md:mt-16"
+                            class="flex items-center justify-center text-3xl md:text-base font-bold mt-[72px] md:mt-16"
                             dir="ltr"
                         >
                             IP: -- -- --
                         </div>
 
                         <div
-                            class="bg-slate-300 flex items-center justify-center mt-10 mr-8 md:mr-12 w-44 h-16 text-2xl md:text-base  md:w-36 md:h-12 font-bold rounded-tl-xl"
+                            class="bg-slate-300 flex items-center justify-center mt-[90px] mr-8 md:mr-12 w-52 h-16 text-3xl md:text-base  md:w-36 md:h-12 font-bold rounded-tl-xl"
                         >
                             اسم سرور
                         </div>
                     </div>
 
-                    <div class="bg-slate-200/70 w-64 h-64 md:w-60 md:h-52">
+                    <div class="bg-slate-200/70 w-80 h-80 md:w-60 md:h-52">
                         <div class="mr-32 grid grid-cols-2 justify-items-end">
                             <div>
                                 <div
-                                    class="bg-slate-300 w-40 h-14 md:w-36 md:h-12 -mt-4 rounded-lg font-bold"
+                                    class="bg-slate-300 w-52 h-16 md:w-36 md:h-14 -mt-4 rounded-lg font-bold"
                                 >
-                      <span class="flex items-center text-xl md:text-base justify-center"
+                      <span class="flex items-center justify-center text-2xl md:text-base"
                       >پیشنهاد توپ اتشین</span
                       >
                                     <div class="flex items-end justify-end">
@@ -657,7 +657,7 @@
                                             viewBox="0 0 24 24"
                                             stroke-width="1.5"
                                             stroke="currentColor"
-                                            class="w-6 h-6"
+                                            class="w-8 h-8 md:w-6 md:h-6"
                                         >
                                             <path
                                                 stroke-linecap="round"
@@ -690,14 +690,14 @@
                         </div>
 
                         <div
-                            class="flex items-center justify-center text-2xl md:text-base font-bold mt-[72px] md:mt-16"
+                            class="flex items-center justify-center text-3xl md:text-base font-bold mt-[72px] md:mt-16"
                             dir="ltr"
                         >
                             IP: -- -- --
                         </div>
 
                         <div
-                            class="bg-slate-300 flex items-center justify-center mt-10 mr-8 md:mr-12 w-44 h-16 text-2xl md:text-base  md:w-36 md:h-12 font-bold rounded-tl-xl"
+                            class="bg-slate-300 flex items-center justify-center mt-[90px] mr-8 md:mr-12 w-52 h-16 text-3xl md:text-base  md:w-36 md:h-12 font-bold rounded-tl-xl"
                         >
                             اسم سرور
                         </div>
@@ -711,8 +711,8 @@
                     <span class="font-bold text-3xl md:text-base mr-20">Minecraft</span>
                 </div>
 
-                <div class="gap-x-20 md:gap-x-0 grid grid-cols-3 justify-items-center mr-96 mt-10">
-                    <div class="bg-slate-200/70 w-64 h-64 md:w-60 md:h-52">
+                <div class="gap-x-72 md:gap-x-0 grid grid-cols-3 justify-items-center mr-80 mt-10">
+                    <div class="bg-slate-200/70 w-80 h-80 md:w-60 md:h-52">
                         <div class="flex items-end justify-end">
                             <div
                                 class="bg-gray-300 flex items-center justify-center -mt-3 -ml-3 w-12 h-12 md:w-8 md:h-8 rounded-full"
@@ -735,26 +735,26 @@
                         </div>
 
                         <div
-                            class="flex items-center justify-center text-2xl md:text-base font-bold mt-[76px]"
+                            class="flex items-center justify-center text-3xl md:text-base font-bold mt-[76px]"
                             dir="ltr"
                         >
                             IP: -- -- --
                         </div>
 
                         <div
-                            class="bg-slate-300 flex items-center justify-center mt-10 mr-12 w-44 h-16 text-2xl md:text-base  md:w-36 md:h-12 font-bold rounded-tl-xl"
+                            class="bg-slate-300 flex items-center justify-center mt-24 mr-12 w-56 h-16 text-3xl md:text-base  md:w-36 md:h-12 font-bold rounded-tl-xl"
                         >
                             اسم سرور
                         </div>
                     </div>
 
-                    <div class="bg-slate-200/70 w-64 h-64 md:w-60 md:h-52">
+                    <div class="bg-slate-200/70 w-80 h-80 md:w-60 md:h-52">
                         <div class="mr-32 grid grid-cols-2 justify-items-end">
                             <div>
                                 <div
-                                    class="bg-slate-300 w-40 md:w-36 h-14 -mt-4 rounded-lg font-bold"
+                                    class="bg-slate-300 w-52 h-16 md:w-36 md:h-14 -mt-4 rounded-lg font-bold"
                                 >
-                      <span class="flex items-center justify-center text-xl md:text-base"
+                      <span class="flex items-center justify-center text-2xl md:text-base"
                       >پیشنهاد توپ اتشین</span
                       >
                                     <div class="flex items-end justify-end">
@@ -764,7 +764,7 @@
                                             viewBox="0 0 24 24"
                                             stroke-width="1.5"
                                             stroke="currentColor"
-                                            class="w-6 h-6"
+                                            class="w-8 h-8 md:w-6 md:h-6"
                                         >
                                             <path
                                                 stroke-linecap="round"
@@ -797,26 +797,26 @@
                         </div>
 
                         <div
-                            class="flex items-center justify-center text-2xl md:text-base font-bold mt-[72px] md:mt-16"
+                            class="flex items-center justify-center text-3xl md:text-base font-bold mt-[72px] md:mt-16"
                             dir="ltr"
                         >
                             IP: -- -- --
                         </div>
 
                         <div
-                            class="bg-slate-300 flex items-center justify-center mt-10 mr-8 md:mr-12 w-44 h-16 text-2xl md:text-base  md:w-36 md:h-12 font-bold rounded-tl-xl"
+                            class="bg-slate-300 flex items-center justify-center mt-[90px] mr-8 md:mr-12 w-52 h-16 text-3xl md:text-base  md:w-36 md:h-12 font-bold rounded-tl-xl"
                         >
                             اسم سرور
                         </div>
                     </div>
 
-                    <div class="bg-slate-200/70 w-64 h-64 md:w-60 md:h-52">
+                    <div class="bg-slate-200/70 w-80 h-80 md:w-60 md:h-52">
                         <div class="mr-32 grid grid-cols-2 justify-items-end">
                             <div>
                                 <div
-                                    class="bg-slate-300 w-40 h-14 md:w-36 md:h-12 -mt-4 rounded-lg font-bold"
+                                    class="bg-slate-300 w-52 h-16 md:w-36 md:h-14 -mt-4 rounded-lg font-bold"
                                 >
-                      <span class="flex items-center text-xl md:text-base justify-center"
+                      <span class="flex items-center justify-center text-2xl md:text-base"
                       >پیشنهاد توپ اتشین</span
                       >
                                     <div class="flex items-end justify-end">
@@ -826,7 +826,7 @@
                                             viewBox="0 0 24 24"
                                             stroke-width="1.5"
                                             stroke="currentColor"
-                                            class="w-6 h-6"
+                                            class="w-8 h-8 md:w-6 md:h-6"
                                         >
                                             <path
                                                 stroke-linecap="round"
@@ -859,14 +859,14 @@
                         </div>
 
                         <div
-                            class="flex items-center justify-center text-2xl md:text-base font-bold mt-[72px] md:mt-16"
+                            class="flex items-center justify-center text-3xl md:text-base font-bold mt-[72px] md:mt-16"
                             dir="ltr"
                         >
                             IP: -- -- --
                         </div>
 
                         <div
-                            class="bg-slate-300 flex items-center justify-center mt-10 mr-8 md:mr-12 w-44 h-16 text-2xl md:text-base  md:w-36 md:h-12 font-bold rounded-tl-xl"
+                            class="bg-slate-300 flex items-center justify-center mt-[90px] mr-8 md:mr-12 w-52 h-16 text-3xl md:text-base  md:w-36 md:h-12 font-bold rounded-tl-xl"
                         >
                             اسم سرور
                         </div>
@@ -880,8 +880,8 @@
                     <span class="font-bold text-3xl md:text-base mr-20">MTA</span>
                 </div>
 
-                <div class="gap-x-20 md:gap-x-0 grid grid-cols-3 justify-items-center mr-96 mt-10">
-                    <div class="bg-slate-200/70 w-64 h-64 md:w-60 md:h-52">
+                <div class="gap-x-72 md:gap-x-0 grid grid-cols-3 justify-items-center mr-80 mt-10">
+                    <div class="bg-slate-200/70 w-80 h-80 md:w-60 md:h-52">
                         <div class="flex items-end justify-end">
                             <div
                                 class="bg-gray-300 flex items-center justify-center -mt-3 -ml-3 w-12 h-12 md:w-8 md:h-8 rounded-full"
@@ -904,26 +904,26 @@
                         </div>
 
                         <div
-                            class="flex items-center justify-center text-2xl md:text-base font-bold mt-[76px]"
+                            class="flex items-center justify-center text-3xl md:text-base font-bold mt-[76px]"
                             dir="ltr"
                         >
                             IP: -- -- --
                         </div>
 
                         <div
-                            class="bg-slate-300 flex items-center justify-center mt-10 mr-12 w-44 h-16 text-2xl md:text-base  md:w-36 md:h-12 font-bold rounded-tl-xl"
+                            class="bg-slate-300 flex items-center justify-center mt-24 mr-12 w-56 h-16 text-3xl md:text-base  md:w-36 md:h-12 font-bold rounded-tl-xl"
                         >
                             اسم سرور
                         </div>
                     </div>
 
-                    <div class="bg-slate-200/70 w-64 h-64 md:w-60 md:h-52">
+                    <div class="bg-slate-200/70 w-80 h-80 md:w-60 md:h-52">
                         <div class="mr-32 grid grid-cols-2 justify-items-end">
                             <div>
                                 <div
-                                    class="bg-slate-300 w-40 md:w-36 h-14 -mt-4 rounded-lg font-bold"
+                                    class="bg-slate-300 w-52 h-16 md:w-36 md:h-14 -mt-4 rounded-lg font-bold"
                                 >
-                      <span class="flex items-center justify-center text-xl md:text-base"
+                      <span class="flex items-center justify-center text-2xl md:text-base"
                       >پیشنهاد توپ اتشین</span
                       >
                                     <div class="flex items-end justify-end">
@@ -933,7 +933,7 @@
                                             viewBox="0 0 24 24"
                                             stroke-width="1.5"
                                             stroke="currentColor"
-                                            class="w-6 h-6"
+                                            class="w-8 h-8 md:w-6 md:h-6"
                                         >
                                             <path
                                                 stroke-linecap="round"
@@ -966,26 +966,26 @@
                         </div>
 
                         <div
-                            class="flex items-center justify-center text-2xl md:text-base font-bold mt-[72px] md:mt-16"
+                            class="flex items-center justify-center text-3xl md:text-base font-bold mt-[72px] md:mt-16"
                             dir="ltr"
                         >
                             IP: -- -- --
                         </div>
 
                         <div
-                            class="bg-slate-300 flex items-center justify-center mt-10 mr-8 md:mr-12 w-44 h-16 text-2xl md:text-base  md:w-36 md:h-12 font-bold rounded-tl-xl"
+                            class="bg-slate-300 flex items-center justify-center mt-[90px] mr-8 md:mr-12 w-52 h-16 text-3xl md:text-base  md:w-36 md:h-12 font-bold rounded-tl-xl"
                         >
                             اسم سرور
                         </div>
                     </div>
 
-                    <div class="bg-slate-200/70 w-64 h-64 md:w-60 md:h-52">
+                    <div class="bg-slate-200/70 w-80 h-80 md:w-60 md:h-52">
                         <div class="mr-32 grid grid-cols-2 justify-items-end">
                             <div>
                                 <div
-                                    class="bg-slate-300 w-40 h-14 md:w-36 md:h-12 -mt-4 rounded-lg font-bold"
+                                    class="bg-slate-300 w-52 h-16 md:w-36 md:h-14 -mt-4 rounded-lg font-bold"
                                 >
-                      <span class="flex items-center text-xl md:text-base justify-center"
+                      <span class="flex items-center justify-center text-2xl md:text-base"
                       >پیشنهاد توپ اتشین</span
                       >
                                     <div class="flex items-end justify-end">
@@ -995,7 +995,7 @@
                                             viewBox="0 0 24 24"
                                             stroke-width="1.5"
                                             stroke="currentColor"
-                                            class="w-6 h-6"
+                                            class="w-8 h-8 md:w-6 md:h-6"
                                         >
                                             <path
                                                 stroke-linecap="round"
@@ -1028,14 +1028,14 @@
                         </div>
 
                         <div
-                            class="flex items-center justify-center text-2xl md:text-base font-bold mt-[72px] md:mt-16"
+                            class="flex items-center justify-center text-3xl md:text-base font-bold mt-[72px] md:mt-16"
                             dir="ltr"
                         >
                             IP: -- -- --
                         </div>
 
                         <div
-                            class="bg-slate-300 flex items-center justify-center mt-10 mr-8 md:mr-12 w-44 h-16 text-2xl md:text-base  md:w-36 md:h-12 font-bold rounded-tl-xl"
+                            class="bg-slate-300 flex items-center justify-center mt-[90px] mr-8 md:mr-12 w-52 h-16 text-3xl md:text-base  md:w-36 md:h-12 font-bold rounded-tl-xl"
                         >
                             اسم سرور
                         </div>
@@ -1049,8 +1049,8 @@
                     <span class="font-bold text-3xl md:text-base mr-20">GATV</span>
                 </div>
 
-                <div class="gap-x-20 md:gap-x-0 grid grid-cols-3 justify-items-center mr-96 mt-10">
-                    <div class="bg-slate-200/70 w-64 h-64 md:w-60 md:h-52">
+                <div class="gap-x-72 md:gap-x-0 grid grid-cols-3 justify-items-center mr-80 mt-10">
+                    <div class="bg-slate-200/70 w-80 h-80 md:w-60 md:h-52">
                         <div class="flex items-end justify-end">
                             <div
                                 class="bg-gray-300 flex items-center justify-center -mt-3 -ml-3 w-12 h-12 md:w-8 md:h-8 rounded-full"
@@ -1073,26 +1073,26 @@
                         </div>
 
                         <div
-                            class="flex items-center justify-center text-2xl md:text-base font-bold mt-[76px]"
+                            class="flex items-center justify-center text-3xl md:text-base font-bold mt-[76px]"
                             dir="ltr"
                         >
                             IP: -- -- --
                         </div>
 
                         <div
-                            class="bg-slate-300 flex items-center justify-center mt-10 mr-12 w-44 h-16 text-2xl md:text-base  md:w-36 md:h-12 font-bold rounded-tl-xl"
+                            class="bg-slate-300 flex items-center justify-center mt-24 mr-12 w-56 h-16 text-3xl md:text-base  md:w-36 md:h-12 font-bold rounded-tl-xl"
                         >
                             اسم سرور
                         </div>
                     </div>
 
-                    <div class="bg-slate-200/70 w-64 h-64 md:w-60 md:h-52">
+                    <div class="bg-slate-200/70 w-80 h-80 md:w-60 md:h-52">
                         <div class="mr-32 grid grid-cols-2 justify-items-end">
                             <div>
                                 <div
-                                    class="bg-slate-300 w-40 md:w-36 h-14 -mt-4 rounded-lg font-bold"
+                                    class="bg-slate-300 w-52 h-16 md:w-36 md:h-14 -mt-4 rounded-lg font-bold"
                                 >
-                      <span class="flex items-center justify-center text-xl md:text-base"
+                      <span class="flex items-center justify-center text-2xl md:text-base"
                       >پیشنهاد توپ اتشین</span
                       >
                                     <div class="flex items-end justify-end">
@@ -1102,7 +1102,7 @@
                                             viewBox="0 0 24 24"
                                             stroke-width="1.5"
                                             stroke="currentColor"
-                                            class="w-6 h-6"
+                                            class="w-8 h-8 md:w-6 md:h-6"
                                         >
                                             <path
                                                 stroke-linecap="round"
@@ -1135,26 +1135,26 @@
                         </div>
 
                         <div
-                            class="flex items-center justify-center text-2xl md:text-base font-bold mt-[72px] md:mt-16"
+                            class="flex items-center justify-center text-3xl md:text-base font-bold mt-[72px] md:mt-16"
                             dir="ltr"
                         >
                             IP: -- -- --
                         </div>
 
                         <div
-                            class="bg-slate-300 flex items-center justify-center mt-10 mr-8 md:mr-12 w-44 h-16 text-2xl md:text-base  md:w-36 md:h-12 font-bold rounded-tl-xl"
+                            class="bg-slate-300 flex items-center justify-center mt-[90px] mr-8 md:mr-12 w-52 h-16 text-3xl md:text-base  md:w-36 md:h-12 font-bold rounded-tl-xl"
                         >
                             اسم سرور
                         </div>
                     </div>
 
-                    <div class="bg-slate-200/70 w-64 h-64 md:w-60 md:h-52">
+                    <div class="bg-slate-200/70 w-80 h-80 md:w-60 md:h-52">
                         <div class="mr-32 grid grid-cols-2 justify-items-end">
                             <div>
                                 <div
-                                    class="bg-slate-300 w-40 h-14 md:w-36 md:h-12 -mt-4 rounded-lg font-bold"
+                                    class="bg-slate-300 w-52 h-16 md:w-36 md:h-14 -mt-4 rounded-lg font-bold"
                                 >
-                      <span class="flex items-center text-xl md:text-base justify-center"
+                      <span class="flex items-center justify-center text-2xl md:text-base"
                       >پیشنهاد توپ اتشین</span
                       >
                                     <div class="flex items-end justify-end">
@@ -1164,7 +1164,7 @@
                                             viewBox="0 0 24 24"
                                             stroke-width="1.5"
                                             stroke="currentColor"
-                                            class="w-6 h-6"
+                                            class="w-8 h-8 md:w-6 md:h-6"
                                         >
                                             <path
                                                 stroke-linecap="round"
@@ -1197,14 +1197,14 @@
                         </div>
 
                         <div
-                            class="flex items-center justify-center text-2xl md:text-base font-bold mt-[72px] md:mt-16"
+                            class="flex items-center justify-center text-3xl md:text-base font-bold mt-[72px] md:mt-16"
                             dir="ltr"
                         >
                             IP: -- -- --
                         </div>
 
                         <div
-                            class="bg-slate-300 flex items-center justify-center mt-10 mr-8 md:mr-12 w-44 h-16 text-2xl md:text-base  md:w-36 md:h-12 font-bold rounded-tl-xl"
+                            class="bg-slate-300 flex items-center justify-center mt-[90px] mr-8 md:mr-12 w-52 h-16 text-3xl md:text-base  md:w-36 md:h-12 font-bold rounded-tl-xl"
                         >
                             اسم سرور
                         </div>
