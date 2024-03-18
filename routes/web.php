@@ -17,3 +17,7 @@ Route::get('/ipserver', function () {
 Route::get('/conctus', function () {
     return view('conctus');
 })->name('conctus');
+
+Route::get('/login', function () {
+    return view('loginAndRegister');
+})->name('login');

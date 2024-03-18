@@ -14,6 +14,7 @@
 <a href="{{route('relationship')}}" class="bg-red-500 w-20 py-2 h-12 ">relationship</a>
 <a href="{{route('conctus')}}" class="bg-red-500 w-20 h-12">conctus</a>
 <a href="{{route('ipserver')}}" class="bg-red-500 w-20 h-12">ipserver</a>
+<a href="{{route('login')}}" class="bg-red-500 w-20 h-12">login</a>
 
 
 </body>
