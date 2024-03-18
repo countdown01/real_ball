@@ -136,21 +136,28 @@
                         class="w-6 h-6"
                     />
                 </div>
-                <p>دنبال کردن</p>
+                <a href="https://t.me/Fire_ball00">
+                    <p class="cursor-pointer hover:text-blue-400">دنبال کردن</p>
+                </a>
             </div>
         </div>
 
+
         <div
-            class="w-28 h-20 sm:w-52 sm:h-20 bg-gradient-to-br from-purple-400 to-orange-400 rounded-tr-lg rounded-bl-lg"
+            class="w-28 h-20  sm:w-52 sm:h-20 bg-gradient-to-br from-purple-400 to-orange-400 rounded-tr-lg rounded-bl-lg"
         >
             <div class="flex items-center justify-center mt-6 gap-x-2">
                 <div>
                     <img class="w-6 h-6" src="{{asset('image/rubika.png')}}" alt=""/>
                 </div>
-                <p>دنبال کردن</p>
+                <a href="rubika://channel?id=love_momo">
+                    <p class="cursor-pointer hover:text-blue-400">دنبال کردن</p>
+                </a>
             </div>
         </div>
+
     </div>
+
 
     <div class="flex items-center justify-center">
         <button

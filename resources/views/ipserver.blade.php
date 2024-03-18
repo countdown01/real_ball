@@ -1,23 +1,20 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Document</title>
-    @vite('resources/css/ipserver.css')
-    @vite('resources/js/app.js')
     <link
         rel="stylesheet"
         href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    @vite('resources/js/app.js')
+    @vite('resources/css/ipserver.css')
 </head>
 <body class="overflow-x-hidden">
 <header
     dir="rtl"
-    class="w-[1000px] pl-10 sm:w-[1156px] md:w-[1262px] lg:w-[1450px] xl:w-[1430px]"
+    class="w-[1090px] sm:w-[1156px] md:w-[1262px] lg:w-[1450px] sm:pl-10 xl:w-[1430px]"
 >
     <div class="mt-10">
         <div class="flex items-center justify-between">
@@ -35,7 +32,7 @@
                                     viewBox="0 0 24 24"
                                     stroke-width="1.5"
                                     stroke="currentColor"
-                                    class="w-10 h-10 -mr-24 sm:mr-0 sm:w-8 sm:h-8 text-gray-600"
+                                    class="w-14 h-14 -mr-24 sm:mr-0 sm:w-8 sm:h-8 text-gray-600"
                                 >
                                     <path
                                         stroke-linecap="round"
@@ -46,11 +43,11 @@
                             </button>
                         </div>
                         <p
-                            class="-mr-24 -mt-12 text-4xl sm:-mr-7 sm:-mt-8 md:-mt-2 md:-mr-12"
+                            class="-mr-24 -mt-12 text-6xl sm:text-4xl sm:-mr-7 sm:-mt-8 md:-mt-2 md:-mr-12"
                         >
                             توپ
                         </p>
-                        <p class="-mr-20 mt-2 md:mt-0 sm:-mr-7 text-4xl md:-mr-14">
+                        <p class="-mr-20 mt-2 md:mt-0 sm:-mr-7 text-6xl sm:text-4xl md:-mr-14">
                             آتشین
                         </p>
                     </div>
@@ -62,7 +59,7 @@
                             viewBox="0 0 24 24"
                             stroke-width="1.5"
                             stroke="currentColor"
-                            class="-mt-10 w-14 h-14 -mr-10 xl:w-10 xl:h-10 md:-mr-5 lg:-mr-5"
+                            class="-mt-10 w-20 h-20 sm:w-14 sm:h-14 -mr-14 sm:-mr-10 xl:w-10 xl:h-10 md:-mr-5 lg:-mr-5"
                         >
                             <path
                                 stroke-linecap="round"
@@ -79,16 +76,16 @@
                 </div>
 
                 <div
-                    class="mt-14 -mr-44 sm:ml-14 sm:-mr-48 sm:mt-16 md:mt-14 md:pt-2 md:-mr-32 lg:-mr-28 grid grid-cols-2 mb-24 sm:gap-x-0 gap-x-10"
+                    class="mt-36 -mr-72 sm:ml-14 sm:-mr-48 sm:mt-16 md:mt-14 md:pt-2 md:-mr-32 lg:-mr-28 grid grid-cols-2 mb-24 sm:gap-x-0 gap-x-10"
                 >
                     <div
-                        class="md:mr-1 lg:mr-0 w-12 h-12 xl:w-10 xl:h-10 border border-gray-400 rounded-full flex items-center justify-center"
+                        class="md:mr-1 lg:mr-0 w-20 h-20 sm:w-12 sm:h-12 xl:w-10 xl:h-10 border border-gray-400 rounded-full flex items-center justify-center"
                     >
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 24 24"
                             fill="currentColor"
-                            class="w-9 h-9 xl:w-7 xl:h-7 dark:text-slate-100 text-slate-400"
+                            class=" w-16 h-16 sm:w-9 sm:h-9 xl:w-7 xl:h-7 dark:text-slate-100 text-slate-400"
                         >
                             <path
                                 d="M12 2.25a.75.75 0 01.75.75v2.25a.75.75 0 01-1.5 0V3a.75.75 0 01.75-.75zM7.5 12a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM18.894 6.166a.75.75 0 00-1.06-1.06l-1.591 1.59a.75.75 0 101.06 1.061l1.591-1.59zM21.75 12a.75.75 0 01-.75.75h-2.25a.75.75 0 010-1.5H21a.75.75 0 01.75.75zM17.834 18.894a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 10-1.061 1.06l1.59 1.591zM12 18a.75.75 0 01.75.75V21a.75.75 0 01-1.5 0v-2.25A.75.75 0 0112 18zM7.758 17.303a.75.75 0 00-1.061-1.06l-1.591 1.59a.75.75 0 001.06 1.061l1.591-1.59zM6 12a.75.75 0 01-.75.75H3a.75.75 0 010-1.5h2.25A.75.75 0 016 12zM6.697 7.757a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 00-1.061 1.06l1.59 1.591z"
@@ -97,13 +94,13 @@
                     </div>
 
                     <div
-                        class="-mr-28 sm:-mr-32 md:-mr-44 w-12 h-12 xl:w-10 xl:h-10 border border-gray-400 rounded-full flex items-center justify-center"
+                        class="-mr-52 sm:-mr-32 md:-mr-44 w-20 h-20 sm:w-12 sm:h-12 xl:w-10 xl:h-10 border border-gray-400 rounded-full flex items-center justify-center"
                     >
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 24 24"
                             fill="currentColor"
-                            class="w-9 h-9 xl:w-7 xl:h-7 text-gray-400 dark:text-slate-100"
+                            class="w-16 h-16 sm:w-9 sm:h-9 xl:w-7 xl:h-7 text-gray-400 dark:text-slate-100"
                         >
                             <path
                                 fill-rule="evenodd"
@@ -153,7 +150,7 @@
                         viewBox="0 0 24 24"
                         stroke-width="1.5"
                         stroke="currentColor"
-                        class="mr-14 mb-2 w-12 h-12 md:w-8 md:h-8 p-1 rounded-full bg-gray-800 text-white hover:text-gray-600 cursor-pointer"
+                        class="mr-14 mb-2 w-16 h-16 sm:w-12 sm:h-12 md:w-8 md:h-8 p-1 rounded-full bg-gray-800 text-white hover:text-gray-600 cursor-pointer"
                     >
                         <path
                             stroke-linecap="round"
@@ -166,12 +163,12 @@
                     class="grid grid-cols-2 -ml-40 sm:-ml-32 md:grid md:grid-cols-2 md:-ml-[105px] lg:-ml-[104px] xl:-ml-14"
                 >
                     <button
-                        class="mr-2 text-2xl md:text-base sm:mr-4 md:-mr-16 bg-gradient-to-br from-cyan-400 to-amber-300 dark:bg-white text-white dark:text-black w-28 h-16 md:w-28 md:h-14 xl:w-20 xl:h-10 rounded-full rounded-tr-md"
+                        class="mr-2 text-4xl md:text-base sm:mr-4 md:-mr-16 bg-gradient-to-br from-cyan-400 to-amber-300 dark:bg-white text-white dark:text-black w-36 h-24 sm:w-28 sm:h-16 md:w-28 md:h-14 xl:w-20 xl:h-10 rounded-full rounded-tr-md"
                     >
                         ثبت نام
                     </button>
                     <button
-                        class="mr-1 ml-1 text-2xl md:text-base pb-3 md:pb-0 md:-mr-7 bg-slate-800 text-white dark:text-black dark:bg-white md:w-28 md:h-14 xl:w-20 xl:h-10 rounded-full rounded-tl-md rounded-r-sm border-4 border-stone-400 pl-2"
+                        class="mr-1 ml-1 text-4xl md:text-base pb-3 md:pb-0 md:-mr-7 bg-slate-800 text-white dark:text-black dark:bg-white  md:w-28 md:h-14 xl:w-20 xl:h-10 rounded-full rounded-tl-md rounded-r-sm border-4 border-stone-400 pl-2"
                     >
                         ورود
                     </button>
@@ -186,7 +183,7 @@
                 <input
                     type="text"
                     placeholder="اسم مطلب مورد نظر را تایپ کنید        "
-                    class="w-[280px] sm:w-[320px] h-10 sm:h-14 p-1 pr-10 font-bold text-center text-black ring-1 ring-gray-400 rounded-2xl"
+                    class="w-[380px] text-2xl sm:w-[320px] h-16 sm:h-14 p-1 pr-10 font-bold text-center text-black ring-1 ring-gray-400 rounded-2xl"
                 />
                 <svg
                     id="hideSearchBox"
@@ -311,84 +308,94 @@
 >
     <div class="text-center space-y-4 mt-20 xl:mr-28">
         <div
-            class="flex items-center justify-center bg-slate-200 w-96 h-14 md:w-64 md:h-14 rounded-xl"
+            class="flex text-3xl sm:text-base overflow-hidden relative   items-center justify-center bg-slate-200 w-210 h-20 sm:w-96 sm:h-14 md:w-64 md:h-14 rounded-xl"
         >
-            جهت تبلیغ در این کادر کلیک کنید
+            <p class="text-white z-50">جهت تبلیغ در این کادر کلیک کنید</p>
+            <img class="w-full absolute h-full" src="{{asset('image/6.png')}}" alt="">
         </div>
         <div
-            class="flex items-center justify-center bg-slate-200 w-96 h-14 md:w-64 md:h-14 rounded-xl"
+            class="flex text-3xl sm:text-base overflow-hidden relative   items-center justify-center bg-slate-200 w-210 h-20 sm:w-96 sm:h-14 md:w-64 md:h-14 rounded-xl"
         >
-            جهت تبلیغ در این کادر کلیک کنید
+            <p class="text-white z-50">جهت تبلیغ در این کادر کلیک کنید</p>
+            <img class="w-full absolute h-full" src="{{asset('image/4.png')}}" alt="">
         </div>
         <div
-            class="flex items-center justify-center bg-slate-200 w-96 h-14 md:w-64 md:h-14 rounded-xl"
+            class="flex text-3xl sm:text-base overflow-hidden relative   items-center justify-center bg-slate-200 w-210 h-20 sm:w-96 sm:h-14 md:w-64 md:h-14 rounded-xl"
         >
-            جهت تبلیغ در این کادر کلیک کنید
+            <p class="text-white z-50">جهت تبلیغ در این کادر کلیک کنید</p>
+            <img class="w-full absolute h-full" src="{{asset('image/2.png')}}" alt="">
         </div>
     </div>
 
     <div
         class="overflow-hidden flex items-center justify-center mt-4 xl:mt-0 bg-slate-200 h-96 md:w-156 md:h-80 rounded-sm"
     >
-        <div class="swiper mySwiper6 w-full md:h-80" dir="rtl">
+        <div class="swiper mySwiper6 w-full h-full md:h-80" dir="rtl">
             <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                    <img class="w-full h-full" src="{{asset('image/1111_tyty.png')}}"/>
+                <div class="swiper-slide relative">
+                    <img class="w-full h-full absolute" src="{{asset('image/6.png')}}" alt=""/>
+                    <p class="z-50 text-white text-2xl">جهت تبلیغ در این کادر کیلک کنید</p>
                 </div>
-                <div class="swiper-slide">
-                    <img class="w-full h-full" src="{{asset('image/1111_st3.png')}}"/>
+                <div class="swiper-slide relative">
+                    <img class="w-full h-full absolute" src="{{asset('image/4.png')}}" alt=""/>
+                    <p class="z-50 text-white text-2xl">جهت تبلیغ در این کادر کیلک کنید</p>
                 </div>
-                <div class="swiper-slide">
-                    <img class="w-full h-full" src="{{asset('image/1111_g8dx.png')}}"/>
+                <div class="swiper-slide relative">
+                    <img class="w-full h-full absolute" src="{{asset('image/3.png')}}" alt=""/>
+                    <p class="z-50 text-white text-2xl">جهت تبلیغ در این کادر کیلک کنید</p>
                 </div>
-                <div class="swiper-slide">
-                    <img class="w-full h-full" src="{{asset('image/1111_g4qv.png')}}"/>
+                <div class="swiper-slide relative">
+                    <img class="w-full h-full absolute" src="{{asset('image/2.png')}}" alt=""/>
+                    <p class="z-50 text-white text-2xl">جهت تبلیغ در این کادر کیلک کنید</p>
                 </div>
-                <div class="swiper-slide">
-                    <img class="w-full h-full" src="{{asset('image/samp.jfif')}}"/>
+                <div class="swiper-slide relative">
+                    <img class="w-full h-full absolute" src="{{asset('image/1.png')}}" alt=""/>
+                    <p class="z-50 text-white text-2xl">جهت تبلیغ در این کادر کیلک کنید</p>
                 </div>
-                <div class="swiper-slide">
-                    <img
-                        class="w-full h-full"
-                        src="{{asset('image/nissan-gtr-boss-1024x576.jpg_bmu2.png')}}"
-                    />
+                <div class="swiper-slide relative">
+                    <img class="w-full h-full absolute" src="{{asset('image/2.png')}}" alt=""/>
+                    <p class="z-50 text-white text-2xl">جهت تبلیغ در این کادر کیلک کنید</p>
                 </div>
             </div>
         </div>
     </div>
 
     <div
-        class="overflow-hidden flex items-center justify-center bg-slate-200 w-156 h-64 md:w-56 md:h-52 mt-7 md:mt-20 ml-4 sm:ml-5 xl:mt-16 xl:ml-28 rounded-xl"
+        class="overflow-hidden flex items-center justify-center bg-slate-200 w-210 h-64 md:w-56 md:h-52 mt-7 md:mt-20 ml-4 sm:ml-5 xl:mt-16 xl:ml-28 rounded-xl"
     >
         <div class="swiper mySwiper5 w-full h-64 md:h-52">
             <div class="swiper-wrapper">
-                <div class="swiper-slide">
+                <div class="swiper-slide  relative">
                     <img
-                        class="w-full h-full"
-                        src="{{asset('image/1111_g4qv.png')}}"
+                        class="w-full h-full absolute"
+                        src="{{asset('image/1.png')}}"
                         alt=""
                     />
+                    <p class="z-50 text-white">جهت تبلیغ در این کادر کلیک کنید</p>
                 </div>
-                <div class="swiper-slide">
+                <div class="swiper-slide relative">
                     <img
-                        class="w-full h-full"
-                        src="{{asset('image/1111_g8dx.png')}}"
+                        class="w-full h-full absolute"
+                        src="{{asset('image/6.png')}}"
                         alt=""
                     />
+                    <p class="z-50 text-white">جهت تبلیغ در این کادر کلیک کنید</p>
                 </div>
-                <div class="swiper-slide">
+                <div class="swiper-slide relative">
                     <img
-                        class="w-full h-full"
-                        src="{{asset('image/1111_st3.png')}}"
+                        class="w-full h-full absolute"
+                        src="{{asset('image/4.png')}}"
                         alt=""
                     />
+                    <p class="z-50 text-white">جهت تبلیغ در این کادر کلیک کنید</p>
                 </div>
-                <div class="swiper-slide">
+                <div class="swiper-slide relative">
                     <img
-                        class="w-full h-full"
-                        src="{{asset('image/1111_tyty.png')}}"
+                        class="w-full h-full absolute"
+                        src="{{asset('image/2.png')}}"
                         alt=""
                     />
+                    <p class="z-50 text-white">جهت تبلیغ در این کادر کلیک کنید</p>
                 </div>
             </div>
         </div>
@@ -400,9 +407,9 @@
     dir="rtl"
 >
     <div
-        class="bg-slate-200 flex flex-col items-center justify-center mt-14 w-56 h-36 md:w-48 md:h-28 rounded-full"
+        class="bg-slate-200 flex flex-col items-center justify-center mt-14 w-80 h-48 sm:w-56 sm:h-36 md:w-48 md:h-28 rounded-full"
     >
-        <p class="text-xl font-semibold md:text-base">آدرس سرور های موجود</p>
+        <p class="text-3xl font-semibold md:text-base">آدرس سرور های موجود</p>
 
         <div class="mt-6 md:mt-4 text-white animate-bounce">
             <svg
@@ -411,7 +418,7 @@
                 viewBox="0 0 24 24"
                 stroke-width="1.5"
                 stroke="currentColor"
-                class="w-9 h-8 bg-gray-950 rounded-full"
+                class="w-12 h-12 sm:w-9 sm:h-8 bg-gray-950 rounded-full"
             >
                 <path
                     stroke-linecap="round"
@@ -424,50 +431,50 @@
 </div>
 
 <div
-    class="w-[926px] ml-28 sm:w-[1006px] sm:ml-24 md:w-[1166px] lg:w-[1326px] flex flex-col items-center justify-center mt-10"
+    class="w-[926px] ml-36 sm:w-[1006px] sm:ml-24 md:w-[1166px] lg:w-[1326px] flex flex-col items-center justify-center mt-10"
     dir="rtl"
 >
     <div
-        class="bg-slate-200 grid grid-cols-4 justify-items-center rounded-lg pt-7 w-210 h-52 md:w-1/2 sm:h-48"
+        class="bg-slate-200 grid grid-cols-4 justify-items-center rounded-lg pt-12 sm:pt-7 w-[740px] sm:w-210  h-64 md:w-1/2 sm:h-48"
     >
         <div class="flex flex-col">
             <img
                 src="{{asset('image/gta v.png')}}"
                 alt="minecraftsvg"
-                class="w-20 h-20 rounded-full"
+                class="w-28 h-28 sm:w-20 sm:h-20 rounded-full"
             />
-            <p class="font-bold pt-4 pr-4">GTA V</p>
-            <p class="font-bold">جی تی ای وی</p>
+            <p class="font-bold text-2xl sm:text-base pt-4 pr-4">GTA V</p>
+            <p class="font-bold text-2xl sm:text-base">جی تی ای وی</p>
         </div>
 
         <div class="flex flex-col">
             <img
                 src="{{asset('image/mta.png')}}"
                 alt="minecraftsvg"
-                class="w-20 h-20 rounded-full"
+                class="w-28 h-28 sm:w-20 sm:h-20 rounded-full"
             />
-            <p class="font-bold pt-4 pr-6">Mta</p>
-            <p class="font-bold pr-3">ام تی ای</p>
+            <p class="font-bold pt-4 text-2xl sm:text-base pr-6">Mta</p>
+            <p class="font-bold pr-3 text-2xl sm:text-base">ام تی ای</p>
         </div>
 
         <div class="flex flex-col">
             <img
                 src="{{asset('image/samp.jfif')}}"
                 alt="minecraftsvg"
-                class="w-20 h-20 rounded-full"
+                class="w-28 h-28 sm:w-20 sm:h-20 rounded-full"
             />
-            <p class="font-bold pt-4 pr-4">Samp</p>
-            <p class="font-bold pr-4">سمپ</p>
+            <p class="font-bold pt-4 text-2xl sm:text-base pr-4">Samp</p>
+            <p class="font-bold pr-4 text-2xl sm:text-base">سمپ</p>
         </div>
 
         <div class="flex flex-col">
             <img
                 src="{{asset('image/minecraft.png')}}"
                 alt="minecraftsvg"
-                class="w-20 h-20 rounded-full"
+                class="w-28 h-28 sm:w-20 sm:h-20 rounded-full"
             />
-            <p class="font-bold pt-4">Minecraft</p>
-            <p class="font-bold pr-2">مایکرافت</p>
+            <p class="font-bold pt-4 text-2xl sm:text-base">Minecraft</p>
+            <p class="font-bold pr-2 text-2xl sm:text-base">مایکرافت</p>
         </div>
     </div>
 
@@ -475,29 +482,29 @@
         <a
             href="{{route('relationship')}}"
             target="_parent"
-            class="text-orange-500 font-bold text-2xl md:text-lg hover:text-blue-500"
+            class="text-orange-500 font-bold text-3xl md:text-lg hover:text-blue-500"
         >جهت ثبت ادرس سرور خود کلیک کنید</a
         >
     </div>
 
     <div class="flex gap-x-10 md:gap-x-80 mt-8">
         <div
-            class="flex items-center justify-center gap-x-4 sm:gap-x-8 bg-gradient-to-br from-lime-600 to-sky-500 w-56 md:w-52 h-20"
+            class="flex items-center justify-center gap-x-4 sm:gap-x-8 bg-gradient-to-br from-lime-600 to-sky-500 w-72 h-24 md:w-52 md:h-20"
         >
             <img
-                class="w-12 h-12 md:w-9 md:h-9"
+                class="w-14 h-14 md:w-9 md:h-9"
                 src="{{asset('image/rubika.png')}}"
                 alt=""
             />
             <div
-                class="text-white text-xl md:text-base font-bold hover:text-sky-400"
+                class="text-white text-3xl md:text-base font-bold hover:text-sky-400"
             >
                 دنبال کردن
             </div>
         </div>
 
         <div
-            class="flex items-center justify-center gap-x-4 md:gap-x-8 bg-gradient-to-br from-purple-400 to-sky-500 w-56 sm:w-52 h-20"
+            class="flex items-center justify-center gap-x-4 md:gap-x-8 bg-gradient-to-br from-purple-400 to-sky-500 w-72 h-24 sm:w-52 sm:h-20"
         >
             <img
                 srcset="
@@ -508,10 +515,10 @@
                 height="50"
                 alt="Telegram icon"
                 data-v-ef2c1d0b=""
-                class="w-10 h-10 md:w-8 md:h-8"
+                class="w-14 h-14 md:w-8 md:h-8"
             />
             <div
-                class="text-white text-xl md:text-base font-bold hover:text-sky-400"
+                class="text-white text-3xl  md:text-base font-bold hover:text-sky-400"
             >
                 دنبال کردن
             </div>
@@ -520,7 +527,7 @@
 </div>
 
 <div
-    class="w-[926px] sm:w-[1006px] md:w-[1166px] lg:w-[1326px] ml-24 sm:ml-24 md:ml-14 xl:ml-0 mt-24"
+    class="w-[926px]  sm:w-[1006px] md:w-[1166px] lg:w-[1326px] ml-24 sm:ml-24 md:ml-14 xl:ml-0 mt-24"
     dir="rtl"
 >
     <div class="grid grid-cols-1 xl:grid-cols-2 xl:justify-items-center">
@@ -528,14 +535,14 @@
             <div>
                 <div class="flex items-center justify-center mr-96">
                     <hr class="w-[720px]"/>
-                    <span class="font-bold mr-20">Samp</span>
+                    <span class="font-bold text-3xl md:text-base mr-20">Samp</span>
                 </div>
 
-                <div class="grid grid-cols-3 justify-items-center mr-96 mt-10">
-                    <div class="bg-slate-200/70 w-60 h-52">
+                <div class="gap-x-20 md:gap-x-0 grid grid-cols-3 justify-items-center mr-96 mt-10">
+                    <div class="bg-slate-200/70 w-64 h-64 md:w-60 md:h-52">
                         <div class="flex items-end justify-end">
                             <div
-                                class="bg-gray-300 flex items-center justify-center -mt-3 -ml-3 w-8 h-8 rounded-full"
+                                class="bg-gray-300 flex items-center justify-center -mt-3 -ml-3 w-12 h-12 md:w-8 md:h-8 rounded-full"
                             >
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
@@ -543,7 +550,7 @@
                                     viewBox="0 0 24 24"
                                     stroke-width="1.5"
                                     stroke="currentColor"
-                                    class="w-6 h-6"
+                                    class="w-8 h-8 md:w-6 md:h-6"
                                 >
                                     <path
                                         stroke-linecap="round"
@@ -555,26 +562,26 @@
                         </div>
 
                         <div
-                            class="flex items-center justify-center font-bold mt-[76px]"
+                            class="flex items-center justify-center text-2xl md:text-base font-bold mt-[76px]"
                             dir="ltr"
                         >
                             IP: -- -- --
                         </div>
 
                         <div
-                            class="bg-slate-300 flex items-center justify-center mt-10 mr-12 w-36 h-12 font-bold rounded-tl-xl"
+                            class="bg-slate-300 flex items-center justify-center mt-10 mr-12 w-44 h-16 text-2xl md:text-base  md:w-36 md:h-12 font-bold rounded-tl-xl"
                         >
                             اسم سرور
                         </div>
                     </div>
 
-                    <div class="bg-slate-200/70 w-60 h-52">
+                    <div class="bg-slate-200/70 w-64 h-64 md:w-60 md:h-52">
                         <div class="mr-32 grid grid-cols-2 justify-items-end">
                             <div>
                                 <div
-                                    class="bg-slate-300 w-36 h-12 -mt-4 rounded-lg font-bold"
+                                    class="bg-slate-300 w-40 md:w-36 h-14 -mt-4 rounded-lg font-bold"
                                 >
-                      <span class="flex items-center justify-center"
+                      <span class="flex items-center justify-center text-xl md:text-base"
                       >پیشنهاد توپ اتشین</span
                       >
                                     <div class="flex items-end justify-end">
@@ -597,7 +604,7 @@
                             </div>
 
                             <div
-                                class="bg-gray-300 flex items-center justify-center -mt-3 -ml-3 w-8 h-8 rounded-full"
+                                class="bg-gray-300 flex items-center justify-center -mt-3 -ml-3 w-12 h-12 md:w-8 md:h-8 rounded-full"
                             >
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
@@ -605,7 +612,7 @@
                                     viewBox="0 0 24 24"
                                     stroke-width="1.5"
                                     stroke="currentColor"
-                                    class="w-6 h-6"
+                                    class="w-8 h-8 md:w-6 md:h-6"
                                 >
                                     <path
                                         stroke-linecap="round"
@@ -617,26 +624,26 @@
                         </div>
 
                         <div
-                            class="flex items-center justify-center font-bold mt-16"
+                            class="flex items-center justify-center text-2xl md:text-base font-bold mt-[72px] md:mt-16"
                             dir="ltr"
                         >
                             IP: -- -- --
                         </div>
 
                         <div
-                            class="bg-slate-300 flex items-center justify-center mt-10 mr-12 w-36 h-12 font-bold rounded-tl-xl"
+                            class="bg-slate-300 flex items-center justify-center mt-10 mr-8 md:mr-12 w-44 h-16 text-2xl md:text-base  md:w-36 md:h-12 font-bold rounded-tl-xl"
                         >
                             اسم سرور
                         </div>
                     </div>
 
-                    <div class="bg-slate-200/70 w-60 h-52">
+                    <div class="bg-slate-200/70 w-64 h-64 md:w-60 md:h-52">
                         <div class="mr-32 grid grid-cols-2 justify-items-end">
                             <div>
                                 <div
-                                    class="bg-slate-300 w-36 h-12 -mt-4 rounded-lg font-bold"
+                                    class="bg-slate-300 w-40 h-14 md:w-36 md:h-12 -mt-4 rounded-lg font-bold"
                                 >
-                      <span class="flex items-center justify-center"
+                      <span class="flex items-center text-xl md:text-base justify-center"
                       >پیشنهاد توپ اتشین</span
                       >
                                     <div class="flex items-end justify-end">
@@ -659,7 +666,7 @@
                             </div>
 
                             <div
-                                class="bg-gray-300 flex items-center justify-center -mt-3 -ml-3 w-8 h-8 rounded-full"
+                                class="bg-gray-300 flex items-center justify-center -mt-3 -ml-3 w-12 h-12 md:w-8 md:h-8 rounded-full"
                             >
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
@@ -667,7 +674,7 @@
                                     viewBox="0 0 24 24"
                                     stroke-width="1.5"
                                     stroke="currentColor"
-                                    class="w-6 h-6"
+                                    class="w-8 h-8 md:w-6 md:h-6"
                                 >
                                     <path
                                         stroke-linecap="round"
@@ -679,14 +686,14 @@
                         </div>
 
                         <div
-                            class="flex items-center justify-center font-bold mt-16"
+                            class="flex items-center justify-center text-2xl md:text-base font-bold mt-[72px] md:mt-16"
                             dir="ltr"
                         >
                             IP: -- -- --
                         </div>
 
                         <div
-                            class="bg-slate-300 flex items-center justify-center mt-10 mr-12 w-36 h-12 font-bold rounded-tl-xl"
+                            class="bg-slate-300 flex items-center justify-center mt-10 mr-8 md:mr-12 w-44 h-16 text-2xl md:text-base  md:w-36 md:h-12 font-bold rounded-tl-xl"
                         >
                             اسم سرور
                         </div>
@@ -697,14 +704,14 @@
             <div class="mt-12">
                 <div class="flex items-center justify-center mr-96">
                     <hr class="w-[720px]"/>
-                    <span class="font-bold mr-20">Minecraft</span>
+                    <span class="font-bold text-3xl md:text-base mr-20">Minecraft</span>
                 </div>
 
-                <div class="grid grid-cols-3 justify-items-center mr-96 mt-10">
-                    <div class="bg-slate-200/70 w-60 h-52">
+                <div class="gap-x-20 md:gap-x-0 grid grid-cols-3 justify-items-center mr-96 mt-10">
+                    <div class="bg-slate-200/70 w-64 h-64 md:w-60 md:h-52">
                         <div class="flex items-end justify-end">
                             <div
-                                class="bg-gray-300 flex items-center justify-center -mt-3 -ml-3 w-8 h-8 rounded-full"
+                                class="bg-gray-300 flex items-center justify-center -mt-3 -ml-3 w-12 h-12 md:w-8 md:h-8 rounded-full"
                             >
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
@@ -712,7 +719,7 @@
                                     viewBox="0 0 24 24"
                                     stroke-width="1.5"
                                     stroke="currentColor"
-                                    class="w-6 h-6"
+                                    class="w-8 h-8 md:w-6 md:h-6"
                                 >
                                     <path
                                         stroke-linecap="round"
@@ -724,26 +731,26 @@
                         </div>
 
                         <div
-                            class="flex items-center justify-center font-bold mt-[76px]"
+                            class="flex items-center justify-center text-2xl md:text-base font-bold mt-[76px]"
                             dir="ltr"
                         >
                             IP: -- -- --
                         </div>
 
                         <div
-                            class="bg-slate-300 flex items-center justify-center mt-10 mr-12 w-36 h-12 font-bold rounded-tl-xl"
+                            class="bg-slate-300 flex items-center justify-center mt-10 mr-12 w-44 h-16 text-2xl md:text-base  md:w-36 md:h-12 font-bold rounded-tl-xl"
                         >
                             اسم سرور
                         </div>
                     </div>
 
-                    <div class="bg-slate-200/70 w-60 h-52">
+                    <div class="bg-slate-200/70 w-64 h-64 md:w-60 md:h-52">
                         <div class="mr-32 grid grid-cols-2 justify-items-end">
                             <div>
                                 <div
-                                    class="bg-slate-300 w-36 h-12 -mt-4 rounded-lg font-bold"
+                                    class="bg-slate-300 w-40 md:w-36 h-14 -mt-4 rounded-lg font-bold"
                                 >
-                      <span class="flex items-center justify-center"
+                      <span class="flex items-center justify-center text-xl md:text-base"
                       >پیشنهاد توپ اتشین</span
                       >
                                     <div class="flex items-end justify-end">
@@ -766,7 +773,7 @@
                             </div>
 
                             <div
-                                class="bg-gray-300 flex items-center justify-center -mt-3 -ml-3 w-8 h-8 rounded-full"
+                                class="bg-gray-300 flex items-center justify-center -mt-3 -ml-3 w-12 h-12 md:w-8 md:h-8 rounded-full"
                             >
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
@@ -774,7 +781,7 @@
                                     viewBox="0 0 24 24"
                                     stroke-width="1.5"
                                     stroke="currentColor"
-                                    class="w-6 h-6"
+                                    class="w-8 h-8 md:w-6 md:h-6"
                                 >
                                     <path
                                         stroke-linecap="round"
@@ -786,26 +793,26 @@
                         </div>
 
                         <div
-                            class="flex items-center justify-center font-bold mt-16"
+                            class="flex items-center justify-center text-2xl md:text-base font-bold mt-[72px] md:mt-16"
                             dir="ltr"
                         >
                             IP: -- -- --
                         </div>
 
                         <div
-                            class="bg-slate-300 flex items-center justify-center mt-10 mr-12 w-36 h-12 font-bold rounded-tl-xl"
+                            class="bg-slate-300 flex items-center justify-center mt-10 mr-8 md:mr-12 w-44 h-16 text-2xl md:text-base  md:w-36 md:h-12 font-bold rounded-tl-xl"
                         >
                             اسم سرور
                         </div>
                     </div>
 
-                    <div class="bg-slate-200/70 w-60 h-52">
+                    <div class="bg-slate-200/70 w-64 h-64 md:w-60 md:h-52">
                         <div class="mr-32 grid grid-cols-2 justify-items-end">
                             <div>
                                 <div
-                                    class="bg-slate-300 w-36 h-12 -mt-4 rounded-lg font-bold"
+                                    class="bg-slate-300 w-40 h-14 md:w-36 md:h-12 -mt-4 rounded-lg font-bold"
                                 >
-                      <span class="flex items-center justify-center"
+                      <span class="flex items-center text-xl md:text-base justify-center"
                       >پیشنهاد توپ اتشین</span
                       >
                                     <div class="flex items-end justify-end">
@@ -828,7 +835,7 @@
                             </div>
 
                             <div
-                                class="bg-gray-300 flex items-center justify-center -mt-3 -ml-3 w-8 h-8 rounded-full"
+                                class="bg-gray-300 flex items-center justify-center -mt-3 -ml-3 w-12 h-12 md:w-8 md:h-8 rounded-full"
                             >
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
@@ -836,7 +843,7 @@
                                     viewBox="0 0 24 24"
                                     stroke-width="1.5"
                                     stroke="currentColor"
-                                    class="w-6 h-6"
+                                    class="w-8 h-8 md:w-6 md:h-6"
                                 >
                                     <path
                                         stroke-linecap="round"
@@ -848,14 +855,14 @@
                         </div>
 
                         <div
-                            class="flex items-center justify-center font-bold mt-16"
+                            class="flex items-center justify-center text-2xl md:text-base font-bold mt-[72px] md:mt-16"
                             dir="ltr"
                         >
                             IP: -- -- --
                         </div>
 
                         <div
-                            class="bg-slate-300 flex items-center justify-center mt-10 mr-12 w-36 h-12 font-bold rounded-tl-xl"
+                            class="bg-slate-300 flex items-center justify-center mt-10 mr-8 md:mr-12 w-44 h-16 text-2xl md:text-base  md:w-36 md:h-12 font-bold rounded-tl-xl"
                         >
                             اسم سرور
                         </div>
@@ -866,14 +873,14 @@
             <div class="mt-12">
                 <div class="flex items-center justify-center mr-96">
                     <hr class="w-[720px]"/>
-                    <span class="font-bold mr-20">MTA</span>
+                    <span class="font-bold text-3xl md:text-base mr-20">MTA</span>
                 </div>
 
-                <div class="grid grid-cols-3 justify-items-center mr-96 mt-10">
-                    <div class="bg-slate-200/70 w-60 h-52">
+                <div class="gap-x-20 md:gap-x-0 grid grid-cols-3 justify-items-center mr-96 mt-10">
+                    <div class="bg-slate-200/70 w-64 h-64 md:w-60 md:h-52">
                         <div class="flex items-end justify-end">
                             <div
-                                class="bg-gray-300 flex items-center justify-center -mt-3 -ml-3 w-8 h-8 rounded-full"
+                                class="bg-gray-300 flex items-center justify-center -mt-3 -ml-3 w-12 h-12 md:w-8 md:h-8 rounded-full"
                             >
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
@@ -881,7 +888,7 @@
                                     viewBox="0 0 24 24"
                                     stroke-width="1.5"
                                     stroke="currentColor"
-                                    class="w-6 h-6"
+                                    class="w-8 h-8 md:w-6 md:h-6"
                                 >
                                     <path
                                         stroke-linecap="round"
@@ -893,26 +900,26 @@
                         </div>
 
                         <div
-                            class="flex items-center justify-center font-bold mt-[76px]"
+                            class="flex items-center justify-center text-2xl md:text-base font-bold mt-[76px]"
                             dir="ltr"
                         >
                             IP: -- -- --
                         </div>
 
                         <div
-                            class="bg-slate-300 flex items-center justify-center mt-10 mr-12 w-36 h-12 font-bold rounded-tl-xl"
+                            class="bg-slate-300 flex items-center justify-center mt-10 mr-12 w-44 h-16 text-2xl md:text-base  md:w-36 md:h-12 font-bold rounded-tl-xl"
                         >
                             اسم سرور
                         </div>
                     </div>
 
-                    <div class="bg-slate-200/70 w-60 h-52">
+                    <div class="bg-slate-200/70 w-64 h-64 md:w-60 md:h-52">
                         <div class="mr-32 grid grid-cols-2 justify-items-end">
                             <div>
                                 <div
-                                    class="bg-slate-300 w-36 h-12 -mt-4 rounded-lg font-bold"
+                                    class="bg-slate-300 w-40 md:w-36 h-14 -mt-4 rounded-lg font-bold"
                                 >
-                      <span class="flex items-center justify-center"
+                      <span class="flex items-center justify-center text-xl md:text-base"
                       >پیشنهاد توپ اتشین</span
                       >
                                     <div class="flex items-end justify-end">
@@ -935,7 +942,7 @@
                             </div>
 
                             <div
-                                class="bg-gray-300 flex items-center justify-center -mt-3 -ml-3 w-8 h-8 rounded-full"
+                                class="bg-gray-300 flex items-center justify-center -mt-3 -ml-3 w-12 h-12 md:w-8 md:h-8 rounded-full"
                             >
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
@@ -943,7 +950,7 @@
                                     viewBox="0 0 24 24"
                                     stroke-width="1.5"
                                     stroke="currentColor"
-                                    class="w-6 h-6"
+                                    class="w-8 h-8 md:w-6 md:h-6"
                                 >
                                     <path
                                         stroke-linecap="round"
@@ -955,26 +962,26 @@
                         </div>
 
                         <div
-                            class="flex items-center justify-center font-bold mt-16"
+                            class="flex items-center justify-center text-2xl md:text-base font-bold mt-[72px] md:mt-16"
                             dir="ltr"
                         >
                             IP: -- -- --
                         </div>
 
                         <div
-                            class="bg-slate-300 flex items-center justify-center mt-10 mr-12 w-36 h-12 font-bold rounded-tl-xl"
+                            class="bg-slate-300 flex items-center justify-center mt-10 mr-8 md:mr-12 w-44 h-16 text-2xl md:text-base  md:w-36 md:h-12 font-bold rounded-tl-xl"
                         >
                             اسم سرور
                         </div>
                     </div>
 
-                    <div class="bg-slate-200/70 w-60 h-52">
+                    <div class="bg-slate-200/70 w-64 h-64 md:w-60 md:h-52">
                         <div class="mr-32 grid grid-cols-2 justify-items-end">
                             <div>
                                 <div
-                                    class="bg-slate-300 w-36 h-12 -mt-4 rounded-lg font-bold"
+                                    class="bg-slate-300 w-40 h-14 md:w-36 md:h-12 -mt-4 rounded-lg font-bold"
                                 >
-                      <span class="flex items-center justify-center"
+                      <span class="flex items-center text-xl md:text-base justify-center"
                       >پیشنهاد توپ اتشین</span
                       >
                                     <div class="flex items-end justify-end">
@@ -997,7 +1004,7 @@
                             </div>
 
                             <div
-                                class="bg-gray-300 flex items-center justify-center -mt-3 -ml-3 w-8 h-8 rounded-full"
+                                class="bg-gray-300 flex items-center justify-center -mt-3 -ml-3 w-12 h-12 md:w-8 md:h-8 rounded-full"
                             >
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
@@ -1005,7 +1012,7 @@
                                     viewBox="0 0 24 24"
                                     stroke-width="1.5"
                                     stroke="currentColor"
-                                    class="w-6 h-6"
+                                    class="w-8 h-8 md:w-6 md:h-6"
                                 >
                                     <path
                                         stroke-linecap="round"
@@ -1017,14 +1024,14 @@
                         </div>
 
                         <div
-                            class="flex items-center justify-center font-bold mt-16"
+                            class="flex items-center justify-center text-2xl md:text-base font-bold mt-[72px] md:mt-16"
                             dir="ltr"
                         >
                             IP: -- -- --
                         </div>
 
                         <div
-                            class="bg-slate-300 flex items-center justify-center mt-10 mr-12 w-36 h-12 font-bold rounded-tl-xl"
+                            class="bg-slate-300 flex items-center justify-center mt-10 mr-8 md:mr-12 w-44 h-16 text-2xl md:text-base  md:w-36 md:h-12 font-bold rounded-tl-xl"
                         >
                             اسم سرور
                         </div>
@@ -1035,14 +1042,14 @@
             <div class="mt-12">
                 <div class="flex items-center justify-center mr-96">
                     <hr class="w-[720px]"/>
-                    <span class="font-bold mr-20">GAT V</span>
+                    <span class="font-bold text-3xl md:text-base mr-20">GATV</span>
                 </div>
 
-                <div class="grid grid-cols-3 justify-items-center mr-96 mt-10">
-                    <div class="bg-slate-200/70 w-60 h-52">
+                <div class="gap-x-20 md:gap-x-0 grid grid-cols-3 justify-items-center mr-96 mt-10">
+                    <div class="bg-slate-200/70 w-64 h-64 md:w-60 md:h-52">
                         <div class="flex items-end justify-end">
                             <div
-                                class="bg-gray-300 flex items-center justify-center -mt-3 -ml-3 w-8 h-8 rounded-full"
+                                class="bg-gray-300 flex items-center justify-center -mt-3 -ml-3 w-12 h-12 md:w-8 md:h-8 rounded-full"
                             >
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
@@ -1050,7 +1057,7 @@
                                     viewBox="0 0 24 24"
                                     stroke-width="1.5"
                                     stroke="currentColor"
-                                    class="w-6 h-6"
+                                    class="w-8 h-8 md:w-6 md:h-6"
                                 >
                                     <path
                                         stroke-linecap="round"
@@ -1062,26 +1069,26 @@
                         </div>
 
                         <div
-                            class="flex items-center justify-center font-bold mt-[76px]"
+                            class="flex items-center justify-center text-2xl md:text-base font-bold mt-[76px]"
                             dir="ltr"
                         >
                             IP: -- -- --
                         </div>
 
                         <div
-                            class="bg-slate-300 flex items-center justify-center mt-10 mr-12 w-36 h-12 font-bold rounded-tl-xl"
+                            class="bg-slate-300 flex items-center justify-center mt-10 mr-12 w-44 h-16 text-2xl md:text-base  md:w-36 md:h-12 font-bold rounded-tl-xl"
                         >
                             اسم سرور
                         </div>
                     </div>
 
-                    <div class="bg-slate-200/70 w-60 h-52">
+                    <div class="bg-slate-200/70 w-64 h-64 md:w-60 md:h-52">
                         <div class="mr-32 grid grid-cols-2 justify-items-end">
                             <div>
                                 <div
-                                    class="bg-slate-300 w-36 h-12 -mt-4 rounded-lg font-bold"
+                                    class="bg-slate-300 w-40 md:w-36 h-14 -mt-4 rounded-lg font-bold"
                                 >
-                      <span class="flex items-center justify-center"
+                      <span class="flex items-center justify-center text-xl md:text-base"
                       >پیشنهاد توپ اتشین</span
                       >
                                     <div class="flex items-end justify-end">
@@ -1104,7 +1111,7 @@
                             </div>
 
                             <div
-                                class="bg-gray-300 flex items-center justify-center -mt-3 -ml-3 w-8 h-8 rounded-full"
+                                class="bg-gray-300 flex items-center justify-center -mt-3 -ml-3 w-12 h-12 md:w-8 md:h-8 rounded-full"
                             >
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
@@ -1112,7 +1119,7 @@
                                     viewBox="0 0 24 24"
                                     stroke-width="1.5"
                                     stroke="currentColor"
-                                    class="w-6 h-6"
+                                    class="w-8 h-8 md:w-6 md:h-6"
                                 >
                                     <path
                                         stroke-linecap="round"
@@ -1124,26 +1131,26 @@
                         </div>
 
                         <div
-                            class="flex items-center justify-center font-bold mt-16"
+                            class="flex items-center justify-center text-2xl md:text-base font-bold mt-[72px] md:mt-16"
                             dir="ltr"
                         >
                             IP: -- -- --
                         </div>
 
                         <div
-                            class="bg-slate-300 flex items-center justify-center mt-10 mr-12 w-36 h-12 font-bold rounded-tl-xl"
+                            class="bg-slate-300 flex items-center justify-center mt-10 mr-8 md:mr-12 w-44 h-16 text-2xl md:text-base  md:w-36 md:h-12 font-bold rounded-tl-xl"
                         >
                             اسم سرور
                         </div>
                     </div>
 
-                    <div class="bg-slate-200/70 w-60 h-52">
+                    <div class="bg-slate-200/70 w-64 h-64 md:w-60 md:h-52">
                         <div class="mr-32 grid grid-cols-2 justify-items-end">
                             <div>
                                 <div
-                                    class="bg-slate-300 w-36 h-12 -mt-4 rounded-lg font-bold"
+                                    class="bg-slate-300 w-40 h-14 md:w-36 md:h-12 -mt-4 rounded-lg font-bold"
                                 >
-                      <span class="flex items-center justify-center"
+                      <span class="flex items-center text-xl md:text-base justify-center"
                       >پیشنهاد توپ اتشین</span
                       >
                                     <div class="flex items-end justify-end">
@@ -1166,7 +1173,7 @@
                             </div>
 
                             <div
-                                class="bg-gray-300 flex items-center justify-center -mt-3 -ml-3 w-8 h-8 rounded-full"
+                                class="bg-gray-300 flex items-center justify-center -mt-3 -ml-3 w-12 h-12 md:w-8 md:h-8 rounded-full"
                             >
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
@@ -1174,7 +1181,7 @@
                                     viewBox="0 0 24 24"
                                     stroke-width="1.5"
                                     stroke="currentColor"
-                                    class="w-6 h-6"
+                                    class="w-8 h-8 md:w-6 md:h-6"
                                 >
                                     <path
                                         stroke-linecap="round"
@@ -1186,14 +1193,14 @@
                         </div>
 
                         <div
-                            class="flex items-center justify-center font-bold mt-16"
+                            class="flex items-center justify-center text-2xl md:text-base font-bold mt-[72px] md:mt-16"
                             dir="ltr"
                         >
                             IP: -- -- --
                         </div>
 
                         <div
-                            class="bg-slate-300 flex items-center justify-center mt-10 mr-12 w-36 h-12 font-bold rounded-tl-xl"
+                            class="bg-slate-300 flex items-center justify-center mt-10 mr-8 md:mr-12 w-44 h-16 text-2xl md:text-base  md:w-36 md:h-12 font-bold rounded-tl-xl"
                         >
                             اسم سرور
                         </div>
@@ -1202,39 +1209,46 @@
             </div>
 
             <div
-                class="flex items-center justify-center cursor-pointer text-orange-500 font-bold text-2xl md:text-lg mr-[380px] xl:mr-210 mt-10"
+                class="flex items-center justify-center cursor-pointer text-orange-500 font-bold text-3xl md:text-lg mr-[380px] xl:mr-210 mt-10"
             >
                 جهت اضافه کردن سرور خود کلیک کنید
             </div>
         </div>
 
         <div
-            class="mr-36 sm:mr-48 md:mr-56 lg:mr-64 xl:mr-72 grid grid-cols-2 xl:grid-cols-1 space-y-14"
+            class="mr-24 sm:mr-48 md:mr-56 lg:mr-64 xl:mr-72 grid grid-cols-2 xl:grid-cols-1 space-y-14"
         >
+
             <div
-                class="mt-14 xl:mt-0 flex items-center justify-center w-64 h-60 bg-orange-500"
+                class="mt-14 relative xl:mt-0 flex overflow-hidden items-center justify-center w-80 h-72 md:w-64 md:h-60 bg-orange-500"
             >
-                <p class="cursor-pointer hover:text-sky-600">
+
+                <p class="cursor-pointer absolute font-bold text-white text-2xl md:text-base hover:text-sky-600">
                     جهت تبلیغ در این کادر کلیک کنید
                 </p>
+                <img class="w-full h-full" src="{{asset('image/1.png')}}" alt="">
             </div>
 
-            <div class="flex items-center justify-center w-64 h-60 bg-orange-500">
-                <p class="cursor-pointer hover:text-sky-600">
+
+            <div class="flex items-center overflow-hidden justify-center w-80 h-72 md:w-64 md:h-60  bg-orange-500">
+                <p class="cursor-pointer absolute font-bold text-white text-2xl md:text-base hover:text-sky-600">
                     جهت تبلیغ در این کادر کلیک کنید
                 </p>
+                <img class="w-full h-full" src="{{asset('image/2.png')}}" alt="">
             </div>
 
-            <div class="flex items-center justify-center w-64 h-60 bg-orange-500">
-                <p class="cursor-pointer hover:text-sky-600">
+            <div class="flex items-center overflow-hidden justify-center w-80 h-72 md:w-64 md:h-60  bg-orange-500">
+                <p class="cursor-pointer absolute font-bold text-white text-2xl md:text-base hover:text-sky-600">
                     جهت تبلیغ در این کادر کلیک کنید
                 </p>
+                <img class="w-full h-full" src="{{asset('image/3.png')}}" alt="">
             </div>
 
-            <div class="flex items-center justify-center w-64 h-60 bg-orange-500">
-                <p class="cursor-pointer hover:text-sky-600">
+            <div class="flex items-center overflow-hidden justify-center w-80 h-72 md:w-64 md:h-60 bg-orange-500">
+                <p class="cursor-pointer absolute font-bold text-white text-2xl md:text-base hover:text-sky-600">
                     جهت تبلیغ در این کادر کلیک کنید
                 </p>
+                <img class="w-full h-full" src="{{asset('image/4.png')}}" alt="">
             </div>
         </div>
     </div>
@@ -1428,5 +1442,6 @@
     />
 </div>
 
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 </body>
 </html>

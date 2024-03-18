@@ -1,18 +1,15 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Document</title>
-    @vite('resources/css/conctus.css')
-    @vite('resources/js/conctus.js')
     <link
         rel="stylesheet"
         href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    @vite('resources/css/conctus.css')
+    @vite('resources/js/conctus.js')
 </head>
 <body id="body" class="overflow-x-hidden bg-white dark:bg-gray-950">
 <header
@@ -117,11 +114,13 @@
                     class="hidden sm:hidden md:flex md:-mt-[92px] md:mr-12 lg:mr-14 lg:mb-6 xl:-mr-2 items-center justify-center"
                 >
                     <p class="-ml-14 md:mb-1 z-50">|</p>
-                    <input
-                        type="text"
-                        placeholder="اسم مطلب مورد نظر را تایپ کنید        "
-                        class="w-80 h-10 mr-8 font-bold text-center text-black ring-1 ring-gray-400 rounded-2xl"
-                    />
+                    <label>
+                        <input
+                            type="text"
+                            placeholder="اسم مطلب مورد نظر را تایپ کنید        "
+                            class="w-80 h-10 mr-8 font-bold text-center text-black ring-1 ring-gray-400 rounded-2xl"
+                        />
+                    </label>
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
                         fill="none"
@@ -173,11 +172,13 @@
             class="ml-6 -mt-[168px] mr-4 sm:mr-20 flex items-center justify-center"
         >
             <div id="searchBox" class="hidden items-center justify-center">
-                <input
-                    type="text"
-                    placeholder="اسم مطلب مورد نظر را تایپ کنید        "
-                    class="w-[260px] p-1 pr-7 font-bold text-center text-black ring-1 ring-gray-400 rounded-2xl"
-                />
+                <label>
+                    <input
+                        type="text"
+                        placeholder="اسم مطلب مورد نظر را تایپ کنید        "
+                        class="w-[260px] p-1 pr-7 font-bold text-center text-black ring-1 ring-gray-400 rounded-2xl"
+                    />
+                </label>
                 <svg
                     id="hideSearchBox"
                     xmlns="http://www.w3.org/2000/svg"
@@ -239,7 +240,7 @@
             </div>
 
             <div>
-                <a href="/relationship.html">
+                <a href="{{route('relationship')}}">
                     <p class="hover:rotate-6 cursor-pointer text-black dark:text-white">تبلیغات</p>
                 </a>
             </div>
@@ -279,7 +280,7 @@
             </div>
 
             <div>
-                <a href="/relationship.html">
+                <a href="{{route('relationship')}}">
                     <p class="hover:rotate-6 cursor-pointer text-black dark:text-white ">تبلیغات</p>
                 </a>
             </div>
@@ -364,7 +365,7 @@
     </section>
     <section>
         <div
-            class="w-[549px] sm:w-[669px] md:w-[952px] lg:w-[1314px] xl:w-[1430px] lg:pr-0  grid grid-cols-1 md:grid-cols-2 dark:bg-gray-100 bg-gray-800 pb-5 mt-16">
+            class="w-[549px] sm:w-[669px] md:w-[952px] lg:w-[1314px] xl:w-[1522px] lg:pr-0  grid grid-cols-1 md:grid-cols-2 dark:bg-gray-100 bg-gray-800 pb-5 mt-16">
 
             <div class=" mt-10 text-center mr-5 md:hidden xl:mr-20">
                 <p class="dark:text-gray-900 text-white  font-bold text-3xl">
@@ -378,18 +379,20 @@
 
             <div class="mt-5 w-72 md:w-96  lg:w-186 lg:h-44 swiper mySwiper4" dir="rtl">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide bg-white text-center pt-5 rounded-md">
-                        <p class="text-gray-700">
-                            این سایت شاید تنهاترین مجموعه در ایران باشد، که مود های کاربردی،
-                        </p>
-                        <p class="text-gray-700">
-                            بروز و متناسب با نیاز های مردمی ارائه میدهد! دمتون گرم
-                        </p>
+                    <div class="swiper-slide flex flex-col bg-white text-center pt-5 rounded-md">
+                        <div>
+                            <p class="text-gray-700">
+                                این سایت شاید تنهاترین مجموعه در ایران باشد، که مود های کاربردی،
+                            </p>
+                            <p class="text-gray-700">
+                                بروز و متناسب با نیاز های مردمی ارائه میدهد! دمتون گرم
+                            </p>
+                        </div>
 
                         <div class="grid grid-cols-2 pb-4 xl:pb-0 mt-10">
                             <div>
                                 <img
-                                    class="w-10 h-10 rounded-full mr-28 xl:mr-64"
+                                    class="w-10 h-10 rounded-full mr-28 xl:mr-44"
                                     src="{{asset('image/IMG_۲۰۲۳۱۰۲۸_۲۲۱۵۲۱.jpg')}}"
                                     alt=""
                                 />
@@ -401,19 +404,21 @@
                         </div>
                     </div>
 
-                    <div class="swiper-slide bg-white text-center pt-5 rounded-md">
-                        <p class="text-gray-700">
-                            این سایت شاید تنهاترین مجموعه در ایران باشد، که مود های کاربردی،
-                        </p>
-                        <p class="text-gray-700">
-                            بروز و متناسب با نیاز های مردمی ارائه میدهد! دمتون گرم
-                        </p>
+                    <div class="swiper-slide flex flex-col bg-white text-center pt-5 rounded-md">
+                        <div>
+                            <p class="text-gray-700">
+                                این سایت شاید تنهاترین مجموعه در ایران باشد، که مود های کاربردی،
+                            </p>
+                            <p class="text-gray-700">
+                                بروز و متناسب با نیاز های مردمی ارائه میدهد! دمتون گرم
+                            </p>
+                        </div>
 
                         <div class="grid grid-cols-2 mt-10">
                             <div>
                                 <img
-                                    class="w-10 h-10 rounded-full mr-28 xl:mr-64"
-                                    src="{{asset('image/1111_g4qv.png')}}"
+                                    class="w-10 h-10 rounded-full mr-28 xl:mr-40"
+                                    src="{{asset('image/2.png')}}"
                                     alt=""
                                 />
                             </div>
@@ -445,17 +450,33 @@
             <div class="w-48 h-48 md:w-5/6 md:h-56 xl:w-full xl:h-full bg-stone-200">
                 <div class="swiper mySwiper w-full h-full ">
                     <div class="swiper-wrapper">
-                        <div class="swiper-slide"><img class="w-full h-full "
-                                                       src="{{asset('image/1111_tyty.png')}}" alt="">
+                        <div class="swiper-slide relative">
+                            <img class="w-full h-full absolute" src="{{asset('image/1.png')}}" alt="">
+                            <p class="text-white z-50">جهت تبلیغ در این کادر کیلک کنید</p>
                         </div>
-                        <div class="swiper-slide"><img class="w-full h-full " src="{{asset('image/1111_st3.png')}}"
-                                                       alt="">
+                        <div class="swiper-slide relative">
+                            <img
+                                class="w-full h-full absolute"
+                                src="{{asset('image/3.png')}}"
+                                alt=""
+                            />
+                            <p class="z-50 text-white">جهت تبلیغ در این کادر کلیک کنید</p>
                         </div>
-                        <div class="swiper-slide"><img class="w-full h-full "
-                                                       src="{{asset('image/1111_g8dx.png')}}" alt="">
+                        <div class="swiper-slide relative">
+                            <img
+                                class="w-full h-full absolute"
+                                src="{{asset('image/4.png')}}"
+                                alt=""
+                            />
+                            <p class="z-50 text-white">جهت تبلیغ در این کادر کلیک کنید</p>
                         </div>
-                        <div class="swiper-slide"><img class="w-full h-full "
-                                                       src="{{asset('image/1111_g4qv.png')}}" alt="">
+                        <div class="swiper-slide relative">
+                            <img
+                                class="w-full h-full absolute"
+                                src="{{asset('image/6.png')}}"
+                                alt=""
+                            />
+                            <p class="z-50 text-white">جهت تبلیغ در این کادر کلیک کنید</p>
                         </div>
                     </div>
                 </div>
@@ -464,17 +485,33 @@
             <div class="w-48 h-48 md:w-5/6 md:h-56 xl:w-full xl:h-48 bg-stone-200">
                 <div class="swiper mySwiper w-full h-full ">
                     <div class="swiper-wrapper">
-                        <div class="swiper-slide"><img class="w-full h-full "
-                                                       src="{{asset('image/1111_tyty.png')}}" alt="">
+                        <div class="swiper-slide relative">
+                            <img class="w-full h-full absolute" src="{{asset('image/1.png')}}" alt="">
+                            <p class="text-white z-50">جهت تبلیغ در این کادر کیلک کنید</p>
                         </div>
-                        <div class="swiper-slide"><img class="w-full h-full " src="{{asset('image/1111_st3.png')}}"
-                                                       alt="">
+                        <div class="swiper-slide relative">
+                            <img
+                                class="w-full h-full absolute"
+                                src="{{asset('image/3.png')}}"
+                                alt=""
+                            />
+                            <p class="z-50 text-white">جهت تبلیغ در این کادر کلیک کنید</p>
                         </div>
-                        <div class="swiper-slide"><img class="w-full h-full "
-                                                       src="{{asset('image/1111_g8dx.png')}}" alt="">
+                        <div class="swiper-slide relative">
+                            <img
+                                class="w-full h-full absolute"
+                                src="{{asset('image/4.png')}}"
+                                alt=""
+                            />
+                            <p class="z-50 text-white">جهت تبلیغ در این کادر کلیک کنید</p>
                         </div>
-                        <div class="swiper-slide"><img class="w-full h-full "
-                                                       src="{{asset('image/1111_g4qv.png')}}" alt="">
+                        <div class="swiper-slide relative">
+                            <img
+                                class="w-full h-full absolute"
+                                src="{{asset('image/6.png')}}"
+                                alt=""
+                            />
+                            <p class="z-50 text-white">جهت تبلیغ در این کادر کلیک کنید</p>
                         </div>
                     </div>
                 </div>
@@ -524,7 +561,7 @@
                               d="M21 16.811c0 .864-.933 1.406-1.683.977l-7.108-4.061a1.125 1.125 0 0 1 0-1.954l7.108-4.061A1.125 1.125 0 0 1 21 8.689v8.122ZM11.25 16.811c0 .864-.933 1.406-1.683.977l-7.108-4.061a1.125 1.125 0 0 1 0-1.954l7.108-4.061a1.125 1.125 0 0 1 1.683.977v8.122Z"/>
                     </svg>
                 </p>
-                </p>
+
                 <p class="font-bold pt-12 pr-4">:مدریت سایت</p>
                 <span class="pr-10 pt-2 hover:text-sky-600">@taha007</span>
                 <p class="absolute top-[300px] pt-[90px] lg:pt-[71px] xl:pt-[70px] right-4">
@@ -774,5 +811,12 @@
     />
 </div>
 
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
 </body>
 </html>
+
+
+
+
