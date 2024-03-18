@@ -698,7 +698,9 @@
                                 height="256"
                                 alt="Telegram icon"
                             />
-                            <p class="text-sm text font-semibold sm:text-base">تلگرام</p>
+                            <a href="https://t.me/Fire_ball00">
+                                <p class="cursor-pointer hover:text-blue-400">دنبال کردن</p>
+                            </a>
                         </div>
 
                         <div class="flex ml-8 gap-x-2">
@@ -708,7 +710,9 @@
                                 alt=""
                             />
 
-                            <p class="text-sm font-semibold sm:text-base">روبیکا</p>
+                            <a href="https://rubika.ir/Fire__Ball">
+                                <p class="cursor-pointer hover:text-blue-400">دنبال کردن</p>
+                            </a>
                         </div>
                     </div>
                 </div>
