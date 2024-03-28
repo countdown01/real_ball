@@ -160,11 +160,13 @@
 
 
     <div class="flex items-center justify-center">
+        <a href="{{route('/')}}">
         <button
             class="mt-14 sm:mt-16 bg-stone-600 text-white py-2 px-1 rounded-xl"
         >
             بازگشت به خانه
         </button>
+        </a>
     </div>
 </div>
 

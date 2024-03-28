@@ -155,16 +155,20 @@
                         />
                     </svg>
                 </button>
-                <button
-                    class="mr-2 sm:mr-4 md:-mr-16 bg-gradient-to-br from-cyan-400 to-amber-300 dark:bg-white text-white dark:text-black w-20 h-10 rounded-full rounded-tr-md"
-                >
-                    ثبت نام
-                </button>
-                <button
-                    class="mr-1 ml-1 md:-mr-7 bg-slate-800 text-white dark:text-black dark:bg-white w-20 h-10 rounded-full rounded-tl-md rounded-r-sm border-4 border-stone-400 pl-2"
-                >
-                    ورود
-                </button>
+                <a href="{{route('login')}}">
+                    <button
+                        class="mr-2 sm:mr-4 md:-mr-16 bg-gradient-to-br from-cyan-400 to-amber-300 dark:bg-white text-white dark:text-black w-20 h-10 rounded-full rounded-tr-md"
+                    >
+                        ثبت نام
+                    </button>
+                </a>
+                <a href="{{route('login')}}">
+                    <button
+                        class="mr-1 ml-1 md:-mr-7 bg-slate-800 text-white dark:text-black dark:bg-white w-20 h-10 rounded-full rounded-tl-md rounded-r-sm border-4 border-stone-400 pl-2"
+                    >
+                        ورود
+                    </button>
+                </a>
             </div>
         </div>
 
@@ -232,11 +236,15 @@
                         d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25"
                     />
                 </svg>
-                <p class="mr-1 hover:rotate-6 cursor-pointer text-black dark:text-white">خانه</p>
+                <a href="{{route('/')}}">
+                    <p class="mr-1 hover:rotate-6 cursor-pointer text-black dark:text-white">خانه</p>
+                </a>
             </div>
 
             <div>
-                <p class="hover:rotate-6 cursor-pointer text-black dark:text-white">معرفی و دانلود بازی</p>
+                <a href="{{route('advertising')}}">
+                    <p class="hover:rotate-6 cursor-pointer text-black dark:text-white">معرفی و دانلود بازی</p>
+                </a>
             </div>
 
             <div>
@@ -246,11 +254,15 @@
             </div>
 
             <div>
-                <p class="hover:rotate-6 cursor-pointer text-black dark:text-white">ارتباط با ما</p>
+                <a href="{{route('conctus')}}">
+                    <p class="hover:rotate-6 cursor-pointer text-black dark:text-white">ارتباط با ما</p>
+                </a>
             </div>
 
             <div>
-                <p class="hover:rotate-6 cursor-pointer text-black dark:text-white">لیست سرور ها</p>
+                <a href="{{route('ipserver')}}">
+                    <p class="hover:rotate-6 cursor-pointer text-black dark:text-white">لیست سرور ها</p>
+                </a>
             </div>
         </div>
 
@@ -272,11 +284,15 @@
                         d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25"
                     />
                 </svg>
-                <p class="mr-1 hover:rotate-6 cursor-pointer text-black dark:text-white">خانه</p>
+                <a href="{{route('/')}}">
+                    <p class="mr-1 hover:rotate-6 cursor-pointer text-black dark:text-white">خانه</p>
+                </a>
             </div>
 
             <div>
-                <p class="hover:rotate-6 cursor-pointer text-black dark:text-white">معرفی و دانلود بازی</p>
+                <a href="{{route('advertising')}}">
+                    <p class="hover:rotate-6 cursor-pointer text-black dark:text-white">معرفی و دانلود بازی</p>
+                </a>
             </div>
 
             <div>
@@ -286,11 +302,15 @@
             </div>
 
             <div>
-                <p class="hover:rotate-6 cursor-pointer text-black dark:text-white">ارتباط با ما</p>
+                <a href="{{route('conctus')}}">
+                    <p class="hover:rotate-6 cursor-pointer text-black dark:text-white">ارتباط با ما</p>
+                </a>
             </div>
 
             <div>
-                <p class="hover:rotate-6 cursor-pointer text-black dark:text-white">لیست سرور ها</p>
+                <a href="{{route('ipserver')}}">
+                    <p class="hover:rotate-6 cursor-pointer text-black dark:text-white">لیست سرور ها</p>
+                </a>
             </div>
         </div>
     </div>

@@ -1,20 +1,20 @@
 "use strict";
 
 //#region for darkmode
-// const BTN_DARK = document.getElementById("btn-dark");
-// const BTN_LIGHT = document.getElementById("btn-light");
-// const HTML = document.querySelector("html");
+const BTN_DARK = document.getElementById("btn-dark");
+const BTN_LIGHT = document.getElementById("btn-light");
+const HTML = document.querySelector("html");
 
-// BTN_DARK.addEventListener("click", enableDarkMode);
-// BTN_LIGHT.addEventListener("click", enableLightMode);
+BTN_DARK.addEventListener("click", enableDarkMode);
+BTN_LIGHT.addEventListener("click", enableLightMode);
 
-// function enableDarkMode() {
-//   HTML.classList.add("dark");
-// }
+function enableDarkMode() {
+  HTML.classList.add("dark");
+}
 
-// function enableLightMode() {
-//   HTML.classList.remove("dark");
-// }
+function enableLightMode() {
+  HTML.classList.remove("dark");
+}
 
 //#endregion for darkmode
 

@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('welcome');
-});
+})->name('/');
 
 Route::get('/relationship', function () {
     return view('relationship');
@@ -21,3 +21,7 @@ Route::get('/conctus', function () {
 Route::get('/login', function () {
     return view('loginAndRegister');
 })->name('login');
+
+Route::get('/advertising', function () {
+    return view('advertising');
+})->name('advertising');
