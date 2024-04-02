@@ -164,18 +164,18 @@
                     </svg>
                 </button>
                 <a href="{{route('login')}}">
-                <button
-                    class="mr-5 sm:mr-6 md:-mr-16 text-2xl sm:text-xl lg:text-base bg-gradient-to-br from-cyan-400 to-amber-300 dark:bg-white text-white dark:text-black w-28 h-14 sm:w-20 lg:w-24 lg:h-12 rounded-full rounded-tr-md"
-                >
-                    ثبت نام
-                </button>
+                    <button
+                        class="mr-5 sm:mr-6 md:-mr-16 text-2xl sm:text-xl lg:text-base bg-gradient-to-br from-cyan-400 to-amber-300 dark:bg-white text-white dark:text-black w-28 h-14 sm:w-20 lg:w-24 lg:h-12 rounded-full rounded-tr-md"
+                    >
+                        ثبت نام
+                    </button>
                 </a>
                 <a href="{{route('login')}}">
-                <button
-                    class="mr-2 ml-10 md:-mr-7 pb-3 md:pb-0 lg:ml-2 text-3xl sm:text-xl lg:text-base bg-slate-800 text-white dark:text-black dark:bg-white rounded-full rounded-tl-md rounded-r-sm w-28 h-14 sm:w-24 lg:w-24 lg:h-12 border-4 border-stone-400 pl-2"
-                >
-                    ورود
-                </button>
+                    <button
+                        class="mr-2 ml-10 md:-mr-7 pb-3 md:pb-0 lg:ml-2 text-3xl sm:text-xl lg:text-base bg-slate-800 text-white dark:text-black dark:bg-white rounded-full rounded-tl-md rounded-r-sm w-28 h-14 sm:w-24 lg:w-24 lg:h-12 border-4 border-stone-400 pl-2"
+                    >
+                        ورود
+                    </button>
                 </a>
             </div>
         </div>
@@ -441,19 +441,62 @@
         class="flex justify-between items-center w-[803px] sm:w-[767px] md:w-[940px] lg:w-[1279px]"
     >
         <div
-            class="dark:bg-white bg-gray-800 w-52 h-44 mt-32 ml-36 lg:ml-52 rounded-lg"
+            class="overflow-hidden flex items-center justify-center bg-slate-200 w-56 h-52 mt-16 ml-28 rounded-xl"
         >
-            <img src="{{asset('image/picture5.webp')}}" alt="picture1"/>
+            <div class="swiper mySwiper5 w-full h-64 md:h-52">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide  relative">
+                        <img
+                            class="w-full h-full absolute"
+                            src="{{asset('image/1.png')}}"
+                            alt=""
+                        />
+                        <p class="z-50 text-white">جهت تبلیغ در این کادر کلیک کنید</p>
+                    </div>
+                    <div class="swiper-slide relative">
+                        <img
+                            class="w-full h-full absolute"
+                            src="{{asset('image/6.png')}}"
+                            alt=""
+                        />
+                        <p class="z-50 text-white">جهت تبلیغ در این کادر کلیک کنید</p>
+                    </div>
+                    <div class="swiper-slide relative">
+                        <img
+                            class="w-full h-full absolute"
+                            src="{{asset('image/4.png')}}"
+                            alt=""
+                        />
+                        <p class="z-50 text-white">جهت تبلیغ در این کادر کلیک کنید</p>
+                    </div>
+                    <div class="swiper-slide relative">
+                        <img
+                            class="w-full h-full absolute"
+                            src="{{asset('image/2.png')}}"
+                            alt=""
+                        />
+                        <p class="z-50 text-white">جهت تبلیغ در این کادر کلیک کنید</p>
+                    </div>
+                </div>
+            </div>
         </div>
+
         <div
             class="dark:bg-white bg-gray-800 w-1/3 h-80 mt-32 mr-10 lg:mr-96 rounded-md overflow-hidden"
         >
-            <img
-                src="{{asset('image/picture4.webp')}}"
-                alt="picture1"
-                class="w-full h-full"
-            />
+
+            <div class="swiper mySwiper6 w-full h-full">
+                <div class="swiper-wrapper w-full h-full">
+                    <div class="swiper-slide"><img class="w-full h-full" src="{{asset('image/picture5.webp')}}" alt=""></div>
+                    <div class="swiper-slide"><img class="w-full h-full" src="{{asset('image/6.png')}}" alt=""></div>
+                    <div class="swiper-slide"><img class="w-full h-full" src="{{asset('image/7.png')}}" alt=""></div>
+                    <div class="swiper-slide"><img class="w-full h-full" src="{{asset('image/2.png')}}" alt=""></div>
+                    <div class="swiper-slide"><img class="w-full h-full" src="{{asset('image/3.png')}}" alt=""></div>
+                </div>
+            </div>
+
         </div>
+
     </div>
     <!--start telegram-->
     <div class="w-[803px] md:w-[940px] lg:w-[1279px]">
@@ -969,25 +1012,27 @@
                 برای ثبت ایمیل روی دکمه پایین کلیک کنید
             </p>
             <div class="flex items-center justify-center mt-3">
-                <button
-                    class="text-sm md:text-base flex bg-red-600 rounded-md px-0.5 py-0.5"
-                >
-                    <p>ثبت ایمیل</p>
-                    <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        stroke-width="1.5"
-                        stroke="currentColor"
-                        class="w-4 h-4 md:w-6 md:h-6 rotate-180 mt-1 mr-1"
+                <a href="{{route('login')}}">
+                    <button
+                        class="text-sm md:text-base flex bg-red-600 rounded-md px-0.5 py-0.5"
                     >
-                        <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"
-                        />
-                    </svg>
-                </button>
+                        <p>ثبت ایمیل</p>
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke-width="1.5"
+                            stroke="currentColor"
+                            class="w-4 h-4 md:w-6 md:h-6 rotate-180 mt-1 mr-1"
+                        >
+                            <path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"
+                            />
+                        </svg>
+                    </button>
+                </a>
             </div>
 
             <div class="flex items-center justify-center mt-2">
@@ -1013,7 +1058,9 @@
                                 height="256"
                                 alt="Telegram icon"
                             />
-                            <p class="text-sm text font-semibold sm:text-base">تلگرام</p>
+                            <a href="https://t.me/Fire_ball00">
+                                <p class="text-sm hover:text-blue-300 font-semibold sm:text-base">تلگرام</p>
+                            </a>
                         </div>
 
                         <div class="flex ml-8 gap-x-2">
@@ -1023,7 +1070,9 @@
                                 alt=""
                             />
 
-                            <p class="text-sm font-semibold sm:text-base">روبیکا</p>
+                            <a href="https://rubika.ir/Fire__Ball">
+                                <p class="text-sm font-semibold hover:text-blue-300 sm:text-base">روبیکا</p>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -1046,10 +1095,18 @@
                 <div class="mr-4 mt-6 md:mr-0 md:mt-0">
                     <p class="font-bold text-lg">لینک های سریع :</p>
                     <div class="font-normal cursor-pointer">
-                        <p class="hover:text-blue-300">صفحه اصلی</p>
-                        <p class="hover:text-blue-300">معرفی و دانلود بازی</p>
-                        <p class="hover:text-blue-300">لیست سرور ها</p>
-                        <p class="hover:text-blue-300">تبلیغات</p>
+                        <a href="{{route('/')}}">
+                            <p class="hover:text-blue-300">صفحه اصلی</p>
+                        </a>
+                        <a href="{{route('advertising')}}">
+                            <p class="hover:text-blue-300">معرفی و دانلود بازی</p>
+                        </a>
+                        <a href="{{route('ipserver')}}">
+                            <p class="hover:text-blue-300">لیست سرور ها</p>
+                        </a>
+                        <a href="{{route('relationship')}}">
+                            <p class="hover:text-blue-300">تبلیغات</p>
+                        </a>
                     </div>
                 </div>
 
@@ -1058,7 +1115,9 @@
                 >
                     <div>
                         تلفن :
-                        <span class="mr-1 font-bold" dir="ltr">0938-972-5209</span>
+                        <a href="tel:+989389725209">
+                            <span class="mr-1 font-bold hover:text-blue-300" dir="ltr">0938-972-5209</span>
+                        </a>
                     </div>
 
                     <div>
@@ -1115,7 +1174,9 @@
                     </div>
                     <p class="text-sm sm:font-semibold sm:text-base">
                         شماره تلفن :
-                        <span class="mr-1" dir="ltr">0939-113-1209</span>
+                        <a href="tel:+989391131209">
+                            <span class="mr-1 hover:text-blue-300" dir="ltr">0939-113-1209</span>
+                        </a>
                     </p>
                 </div>
             </div>

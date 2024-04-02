@@ -8,7 +8,7 @@
         rel="stylesheet"
         href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
-    @vite('resources/js/app.js')
+    @vite('resources/js/ipserver.js')
     @vite('resources/css/ipserver.css')
 </head>
 <body class="overflow-x-hidden">
@@ -1233,9 +1233,11 @@
             </div>
 
             <div
-                class="flex items-center justify-center cursor-pointer text-orange-500 font-bold text-3xl md:text-lg mr-[380px] xl:mr-210 mt-10"
+                class="flex items-center justify-center cursor-pointer text-orange-500 font-bold text-3xl md:text-lg mr-[380px] xl:mr-210 mt-10 xl:mt-28 hover:text-blue-300"
             >
-                جهت اضافه کردن سرور خود کلیک کنید
+                <a href="{{route('relationship')}}">
+                    جهت اضافه کردن سرور خود کلیک کنید
+                </a>
             </div>
         </div>
 
@@ -1309,25 +1311,27 @@
                 برای ثبت ایمیل روی دکمه پایین کلیک کنید
             </p>
             <div class="flex items-center justify-center mt-3">
-                <button
-                    class="text-sm md:text-base flex bg-red-600 rounded-md px-0.5 py-0.5"
-                >
-                    <p>ثبت ایمیل</p>
-                    <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        stroke-width="1.5"
-                        stroke="currentColor"
-                        class="w-4 h-4 md:w-6 md:h-6 rotate-180 mt-1 mr-1"
+                <a href="{{route('login')}}">
+                    <button
+                        class="text-sm md:text-base flex bg-red-600 rounded-md px-0.5 py-0.5"
                     >
-                        <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"
-                        />
-                    </svg>
-                </button>
+                        <p>ثبت ایمیل</p>
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke-width="1.5"
+                            stroke="currentColor"
+                            class="w-4 h-4 md:w-6 md:h-6 rotate-180 mt-1 mr-1"
+                        >
+                            <path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"
+                            />
+                        </svg>
+                    </button>
+                </a>
             </div>
 
             <div class="flex items-center justify-center mt-2">
@@ -1387,10 +1391,18 @@
                 <div class="mr-4 mt-6 md:mr-0 md:mt-0">
                     <p class="font-bold text-lg">لینک های سریع :</p>
                     <div class="font-normal cursor-pointer">
-                        <p class="hover:text-blue-300">صفحه اصلی</p>
-                        <p class="hover:text-blue-300">معرفی و دانلود بازی</p>
-                        <p class="hover:text-blue-300">لیست سرور ها</p>
-                        <p class="hover:text-blue-300">تبلیغات</p>
+                        <a href="{{route('/')}}">
+                            <p class="hover:text-blue-300">صفحه اصلی</p>
+                        </a>
+                        <a href="{{route('advertising')}}">
+                            <p class="hover:text-blue-300">معرفی و دانلود بازی</p>
+                        </a>
+                        <a href="{{route('ipserver')}}">
+                            <p class="hover:text-blue-300">لیست سرور ها</p>
+                        </a>
+                        <a href="{{route('relationship')}}">
+                            <p class="hover:text-blue-300">تبلیغات</p>
+                        </a>
                     </div>
                 </div>
 
@@ -1399,7 +1411,9 @@
                 >
                     <div>
                         تلفن :
-                        <span class="mr-1 font-bold" dir="ltr">0938-972-5209</span>
+                        <a href="tel:+989389725209">
+                            <span class="mr-1 font-bold" dir="ltr">0938-972-5209</span>
+                        </a>
                     </div>
 
                     <div>
@@ -1456,7 +1470,9 @@
                     </div>
                     <p class="text-sm sm:font-semibold sm:text-base">
                         شماره تلفن :
-                        <span class="mr-1" dir="ltr">0939-113-1209</span>
+                        <a href="tel:+989391131209">
+                            <span class="mr-1" dir="ltr">0939-113-1209</span>
+                        </a>
                     </p>
                 </div>
             </div>
