@@ -14,7 +14,7 @@
 <body class="overflow-x-hidden">
 <header
     dir="rtl"
-    class="w-[1090px] sm:w-[1156px] md:w-[1262px] lg:w-[1450px] sm:pl-10 xl:w-[1430px]"
+    class="w-[1180px] sm:w-[1156px] md:w-[1262px] lg:w-[1450px] sm:pl-10 xl:w-[1430px]"
 >
     <div class="mt-10">
         <div class="flex items-center justify-between">
@@ -171,7 +171,7 @@
                     </a>
                     <a href="{{route('login')}}">
                         <button
-                            class="mr-1 ml-1 text-4xl md:text-base pb-3 md:pb-0 md:-mr-7 bg-slate-800 text-white dark:text-black dark:bg-white  md:w-28 md:h-14 xl:w-20 xl:h-10 rounded-full rounded-tl-md rounded-r-sm border-4 border-stone-400 pl-2"
+                            class="mr-1 ml-1 text-4xl md:text-base pb-3 md:pb-0 md:-mr-7 bg-slate-800 text-white dark:text-black dark:bg-white w-36 h-24 md:w-28 md:h-14 xl:w-20 xl:h-10 rounded-full rounded-tl-md rounded-r-sm border-4 border-stone-400 pl-2"
                         >
                             ورود
                         </button>
@@ -209,7 +209,7 @@
 
         <div
             id="sidebar"
-            class="hidden md:hidden bg-gray-900 space-y-1 w-44 -mt-6 h-80 pr-5 z-50 relative pt-14 text-white"
+            class="hidden md:hidden bg-gray-900 space-y-1 w-96 h-96 text-3xl -mt-6 sm:h-80 pr-5 z-50 relative pt-14 text-white"
         >
             <div id="closeSidebar" class="mb-10 -mt-12 mr-28">
                 <svg
@@ -218,7 +218,7 @@
                     viewBox="0 0 24 24"
                     stroke-width="1.5"
                     stroke="currentColor"
-                    class="w-6 h-6"
+                    class="w-12 h-12"
                 >
                     <path
                         stroke-linecap="round"
@@ -323,7 +323,7 @@
 </header>
 
 <div
-    class="w-[926px] ml-28 sm:w-[1006px] sm:ml-24 md:w-[1181px] md:right-8 lg:w-[1326px] lg:right-8 relative grid md:grid-cols-3 justify-items-center mt-24"
+    class="w-[926px] ml-48 sm:w-[1006px] sm:ml-24 md:w-[1181px] md:right-8 lg:w-[1326px] lg:right-8 relative grid md:grid-cols-3 justify-items-center mt-24"
     dir="rtl"
 >
     <div class="text-center space-y-4 mt-20 xl:mr-28">
@@ -423,7 +423,7 @@
 </div>
 
 <div
-    class="w-[926px] ml-32 sm:w-[1006px] sm:ml-24 md:w-[1166px] lg:w-[1326px] flex items-center justify-center"
+    class="w-[926px] ml-48 sm:w-[1006px] sm:ml-24 md:w-[1166px] lg:w-[1326px] flex items-center justify-center"
     dir="rtl"
 >
     <div
@@ -451,7 +451,7 @@
 </div>
 
 <div
-    class="w-[926px] ml-36 sm:w-[1006px] sm:ml-24 md:w-[1166px] lg:w-[1326px] flex flex-col items-center justify-center mt-10"
+    class="w-[926px] ml-48 sm:w-[1006px] sm:ml-24 md:w-[1166px] lg:w-[1326px] flex flex-col items-center justify-center mt-10"
     dir="rtl"
 >
     <div
@@ -551,7 +551,7 @@
 </div>
 
 <div
-    class="w-[926px]  sm:w-[1006px] md:w-[1166px] lg:w-[1326px] ml-24 sm:ml-24 md:ml-14 xl:ml-0 mt-24"
+    class="w-[926px]   sm:w-[1006px] md:w-[1166px] lg:w-[1326px] ml-32 sm:ml-24 md:ml-14 xl:ml-0 mt-24"
     dir="rtl"
 >
     <div class="grid grid-cols-1 xl:grid-cols-2 xl:justify-items-center">

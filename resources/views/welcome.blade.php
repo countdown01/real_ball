@@ -887,7 +887,7 @@
     </div>
     <!--start coment-->
     <section
-        class="w-[818px] sm:w-[830px] md:w-[940px] lg:w-[1373px] xl:w-[1426px] mt-4"
+        class="w-[840px] sm:w-[830px] md:w-[940px] lg:w-[1373px] xl:w-[1426px] mt-4"
     >
         <div class="grid lg:grid-cols-2 bg-gray-200 pb-5">
             <div class="lg:hidden text-center mt-5">
@@ -979,7 +979,7 @@
 
 <!--start footer-->
 <div
-    class="relative w-[818px] sm:w-[830px] md:w-[940px] lg:w-[1373px] xl:w-[1426px]"
+    class="relative w-[840px] sm:w-[830px] md:w-[940px] lg:w-[1373px] xl:w-[1426px]"
     dir="rtl"
 >
     <footer

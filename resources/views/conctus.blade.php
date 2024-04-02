@@ -14,7 +14,7 @@
 <body id="body" class="overflow-x-hidden bg-white dark:bg-gray-950">
 <header
     dir="rtl"
-    class="w-[530px] pl-10 sm:w-[690px] md:w-[960px] lg:w-[1278px] xl:w-[1405px]"
+    class="w-[630px] pl-10 sm:w-[690px] md:w-[960px] lg:w-[1278px] xl:w-[1405px]"
 >
     <div class="mt-10">
         <div class="flex items-center justify-between">
@@ -237,31 +237,31 @@
                     />
                 </svg>
                 <a href="{{route('/')}}">
-                    <p class="mr-1 hover:rotate-6 cursor-pointer text-black dark:text-white">خانه</p>
+                    <p class="mr-1 hover:rotate-6 cursor-pointer  dark:text-white">خانه</p>
                 </a>
             </div>
 
             <div>
                 <a href="{{route('advertising')}}">
-                    <p class="hover:rotate-6 cursor-pointer text-black dark:text-white">معرفی و دانلود بازی</p>
+                    <p class="hover:rotate-6 cursor-pointer  dark:text-white">معرفی و دانلود بازی</p>
                 </a>
             </div>
 
             <div>
                 <a href="{{route('relationship')}}">
-                    <p class="hover:rotate-6 cursor-pointer text-black dark:text-white">تبلیغات</p>
+                    <p class="hover:rotate-6 cursor-pointer  dark:text-white">تبلیغات</p>
                 </a>
             </div>
 
             <div>
                 <a href="{{route('conctus')}}">
-                    <p class="hover:rotate-6 cursor-pointer text-black dark:text-white">ارتباط با ما</p>
+                    <p class="hover:rotate-6 cursor-pointer  dark:text-white">ارتباط با ما</p>
                 </a>
             </div>
 
             <div>
                 <a href="{{route('ipserver')}}">
-                    <p class="hover:rotate-6 cursor-pointer text-black dark:text-white">لیست سرور ها</p>
+                    <p class="hover:rotate-6 cursor-pointer dark:text-white">لیست سرور ها</p>
                 </a>
             </div>
         </div>
@@ -316,9 +316,9 @@
     </div>
 </header>
 
-<main class="mb-72 ">
+<main class="mb-72  ">
     <section
-        class="dark:bg-gray-100 bg-gray-800 text-white dark:text-black w-[515px] right-44 sm:w-[610px] sm:right-44 md:w-[840px] lg:w-[980px] md:right-36 lg:left-0 xl:left-0  xl:pr-10  xl:w-3/4 h-48 mt-24 ml-48 rounded-2xl relative  ">
+        class="dark:bg-gray-100 bg-gray-800 text-white dark:text-black  w-[515px]  right-44 sm:w-[610px] sm:right-44 md:w-[840px] lg:w-[980px] md:right-36 lg:left-0 xl:left-0  xl:pr-10  xl:w-3/4 h-48 mt-24 ml-56 sm:ml-44 rounded-2xl relative  ">
         <div class="sm:-mr-9">
             <p class="flex flex-row justify-end items-end pr-4 sm:pr-10 lg:pr-16 xl:pr-14 pt-7  font-bold ">ارتباط با ما<span
                     class="pl-2">
@@ -385,7 +385,7 @@
     </section>
     <section>
         <div
-            class="w-[549px] sm:w-[669px] md:w-[952px] lg:w-[1314px] xl:w-[1522px] lg:pr-0  grid grid-cols-1 md:grid-cols-2 dark:bg-gray-100 bg-gray-800 pb-5 mt-16">
+            class="w-[646px] sm:w-[669px] md:w-[952px] lg:w-[1314px] xl:w-[1522px] lg:pr-0  grid grid-cols-1 md:grid-cols-2 dark:bg-gray-100 bg-gray-800 pb-5 mt-16">
 
             <div class=" mt-10 text-center mr-5 md:hidden xl:mr-20">
                 <p class="dark:text-gray-900 text-white  font-bold text-3xl">
@@ -463,7 +463,7 @@
     </section>
     </div>
 
-    <div class=" w-[600px]  sm:w-[700px] md:w-[900px] lg:w-[1343px] ">
+    <div class=" ml-12 sm:ml-0 w-[600px]  sm:w-[700px] md:w-[900px] lg:w-[1343px] ">
         <div
             class="overflow-hidden grid grid-cols-2 xl:grid-cols-4 ml-10 md:ml-28 lg:ml-10 lg:mr-10  mr-10 xl:mr-0 xl:ml-32 gap-x-4 xl:gap-x-20 z-10 relative justify-items-start mt-16">
 
@@ -540,7 +540,7 @@
     </div>
 
 
-    <section class="relative right-24 -mt-44 sm:bottom-0 md:left-28 lg:left-52  ">
+    <section class="relative right-16 sm:right-24 -mt-44 sm:bottom-0 md:left-28 lg:left-52  ">
         <div
             class="absolute top-80 xl:top-28 sm:left-44 md:left-28  mt-44 xl:mt-0 left-28 xl:left-[450px] dark:bg-gray-100 bg-gray-800  dark:text-black text-white w-178 md:w-186 lg:w-[720px] xl:w-1/2 h-[895px] rounded-lg text-end">
             <div>
