@@ -16,7 +16,7 @@
 <div class="container" id="container">
     <div class="form-container sign-up">
         <form>
-            <h1>!همین حالا یک اکانت بساز</h1>
+            <h1 style="font-size: x-large">!یک اکانت بساز</h1>
             <div class="social-icons">
                 <a href="#" class="icons"><i class="fa-brands fa-google-plus-g"></i></a>
                 <a href="#" class="icons"><i class="fa-brands fa-facebook-f"></i></a>
@@ -49,12 +49,12 @@
     <div class="toggle-container">
         <div class="toggle">
             <div class="toggle-panel toggle-left">
-                <h1>!سلام دوست من</h1>
+                <h1 style="font-size: x-large">!سلام دوست من</h1>
                 <p>با مشخصات شخصی خود ثبت نام کنید تا از همه امکانات سایت استفاده کنید</p>
                 <button style="font-size: math" class="hidden" id="login">ورود</button>
             </div>
             <div class="toggle-panel toggle-right">
-                <h1>!خوش برگشتی</h1>
+                <h1 style="font-size: x-large">!خوش برگشتی</h1>
                 <p>اطلاعات شخصی خود را وارد کنید تا از تمام ویژگی های سایت استفاده کنید</p>
                 <button style="font-size: math" class="hidden" id="register">ثبت نام</button>
             </div>

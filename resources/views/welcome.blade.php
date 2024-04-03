@@ -11,7 +11,7 @@
     @vite('resources/css/app.css')
     @vite('resources/js/app.js')
 </head>
-<body class="overflow-x-hidden bg-gray-100 dark:bg-gray-800" id="body">
+<body class=" overflow-x-hidden bg-gray-100 dark:bg-gray-800" id="body">
 <!--start header-->
 
 <header
@@ -187,7 +187,7 @@
                 <input
                     type="text"
                     placeholder="اسم مطلب مورد نظر را تایپ کنید        "
-                    class="w-[260px] p-1 pr-7 font-bold text-center text-black ring-1 ring-gray-400 rounded-2xl"
+                    class="w-[300px] h-20 -mt-2 ml-28 text-xl p-1 pr-5 font-bold text-center text-black ring-1 ring-gray-400 rounded-2xl"
                 />
                 <svg
                     id="hideSearchBox"
@@ -196,7 +196,7 @@
                     viewBox="0 0 24 24"
                     stroke-width="1.5"
                     stroke="currentColor"
-                    class="w-7 h-7 -mt-12 pr-1"
+                    class="w-8 h-8 -mt-24 pr-1"
                 >
                     <path
                         stroke-linecap="round"
@@ -443,7 +443,7 @@
         <div
             class="overflow-hidden flex items-center justify-center bg-slate-200 w-64 h-72  lg:w-56 lg:h-52 mt-16 ml-28 rounded-xl"
         >
-            <div class="swiper mySwiper5 w-full h-64 md:h-52">
+            <div class="swiper mySwiper5 w-full h-72 md:h-52">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide flex items-center justify-center  relative">
                         <img
@@ -492,7 +492,7 @@
                         <p class="z-50 absolute text-white font-bold">جهت تبلیغ در این کادر کلیک کنید</p>
                     </div>
                     <div class="swiper-slide relative flex items-center justify-center">
-                        <img class="w-full h-full absolute" src="{{asset('image/picture1.jpg')}}" alt="">
+                        <img class="w-full h-full absolute" src="{{asset('image/picture12.webp')}}" alt="">
                         <p class="z-50 absolute text-white font-bold">جهت تبلیغ در این کادر کلیک کنید</p>
                     </div>
                     <div class="swiper-slide relative flex items-center justify-center ">
