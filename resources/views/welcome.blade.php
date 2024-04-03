@@ -441,7 +441,7 @@
         class="flex justify-between items-center w-[803px] sm:w-[767px] md:w-[940px] lg:w-[1279px]"
     >
         <div
-            class="overflow-hidden flex items-center justify-center bg-slate-200 w-56 h-52 mt-16 ml-28 rounded-xl"
+            class="overflow-hidden flex items-center justify-center bg-slate-200 w-64 h-72  lg:w-56 lg:h-52 mt-16 ml-28 rounded-xl"
         >
             <div class="swiper mySwiper5 w-full h-64 md:h-52">
                 <div class="swiper-wrapper">
@@ -482,7 +482,7 @@
         </div>
 
         <div
-            class="dark:bg-white bg-gray-800 w-1/3 h-80 mt-32 mr-10 lg:mr-96 rounded-md overflow-hidden"
+            class="dark:bg-white bg-gray-800 w-[350px] h-96 lg:w-1/3 lg:h-80 mt-32 mr-10 lg:mr-96 rounded-md overflow-hidden"
         >
 
             <div class="swiper mySwiper6 w-full h-full">
@@ -1023,22 +1023,22 @@
                 </svg>
             </div>
 
-            <p class="text-sm flex items-center justify-center pt-2 md:font-bold">
+            <p class="text-xl lg:text-sm flex items-center justify-center pt-2 md:font-bold">
                 برای ثبت ایمیل روی دکمه پایین کلیک کنید
             </p>
             <div class="flex items-center justify-center mt-3">
                 <a href="{{route('login')}}">
                     <button
-                        class="text-sm md:text-base flex bg-red-600 rounded-md px-0.5 py-0.5"
+                        class="text-sm md:text-base flex bg-red-600 rounded-md px-2 py-2 lg:px-0.5 lg:py-0.5"
                     >
-                        <p>ثبت ایمیل</p>
+                        <p class="text-xl lg:text-base">ثبت ایمیل</p>
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             fill="none"
                             viewBox="0 0 24 24"
                             stroke-width="1.5"
                             stroke="currentColor"
-                            class="w-4 h-4 md:w-6 md:h-6 rotate-180 mt-1 mr-1"
+                            class="w-7 h-7 md:w-6 md:h-6 rotate-180 mt-1 mr-1"
                         >
                             <path
                                 stroke-linecap="round"
@@ -1055,7 +1055,7 @@
             </div>
 
             <div class="grid grid-cols-2 mt-2">
-                <div class="font-bold text-lg sm:text-xl md:text-2xl mr-2">
+                <div class="font-bold text-2xl lg:text-lg sm:text-xl md:text-2xl mr-2">
                     توپ آتشین
                 </div>
 
@@ -1064,7 +1064,7 @@
                         <div class="flex gap-x-2">
                             <img
                                 data-v-d7e8173f=""
-                                class="app-preview__image-origin w-6 h-6 sm:w-7 sm:h-7 md:w-8 md:h-8 bg-white rounded-md"
+                                class="app-preview__image-origin w-9 h-9 sm:w-7 sm:h-7 md:w-8 md:h-8 bg-white rounded-md"
                                 srcset="
                       https://img.icons8.com/?size=256&amp;id=98970&amp;format=png 1x,
                       https://img.icons8.com/?size=512&amp;id=98970&amp;format=png 2x
@@ -1074,19 +1074,19 @@
                                 alt="Telegram icon"
                             />
                             <a href="https://t.me/Fire_ball00">
-                                <p class="text-sm hover:text-blue-300 font-semibold sm:text-base">تلگرام</p>
+                                <p class="text-xl hover:text-blue-300 font-semibold sm:text-base">تلگرام</p>
                             </a>
                         </div>
 
                         <div class="flex ml-8 gap-x-2">
                             <img
-                                class="w-6 h-6 sm:w-7 sm:h-7 md:w-8 md:h-8"
+                                class="w-9 h-9 sm:w-7 sm:h-7 md:w-8 md:h-8"
                                 src="{{asset('image/rubika.png')}}"
                                 alt=""
                             />
 
                             <a href="https://rubika.ir/Fire__Ball">
-                                <p class="text-sm font-semibold hover:text-blue-300 sm:text-base">روبیکا</p>
+                                <p class="text-xl font-semibold hover:text-blue-300 sm:text-base">روبیکا</p>
                             </a>
                         </div>
                     </div>
@@ -1097,7 +1097,7 @@
                 class="mt-4 md:grid md:grid-cols-3 md:justify-items-center md:mt-14"
             >
                 <div
-                    class="mt-8 mr-6 sm:text-lg md:mt-0 px-8 md:px-0 text-center font-semibold"
+                    class="text-xl lg:text-base mt-8 mr-6 sm:text-lg md:mt-0 px-8 md:px-0 text-center font-semibold"
                 >
                     <p>
                         با سلام و احترام ما همراه در تلاشیم که بهترین هارا برای شما به
@@ -1107,7 +1107,7 @@
                     </p>
                 </div>
 
-                <div class="mr-4 mt-6 md:mr-0 md:mt-0">
+                <div class="text-xl lg:text-base mr-4 mt-6 md:mr-0 md:mt-0">
                     <p class="font-bold text-lg">لینک های سریع :</p>
                     <div class="font-normal cursor-pointer">
                         <a href="{{route('/')}}">
