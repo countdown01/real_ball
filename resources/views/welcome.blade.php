@@ -209,16 +209,16 @@
 
         <div
             id="sidebar"
-            class="hidden md:hidden bg-gray-300 dark:bg-gray-900 space-y-1 w-44 -mt-6 h-80 pr-5 z-50 relative pt-14 text-white"
+            class="hidden md:hidden relative bg-gray-300 dark:bg-gray-900 space-y-5 w-full -mt-6 h-96 pr-5 z-50 pt-14 text-white"
         >
-            <div id="closeSidebar" class="mb-10 -mt-12 mr-28">
+            <div id="closeSidebar" class="mb-10 -mt-12 mr-80">
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke-width="1.5"
                     stroke="currentColor"
-                    class="w-6 h-6 text-black dark:text-white"
+                    class="w-8 h-8 text-black dark:text-white"
                 >
                     <path
                         stroke-linecap="round"
@@ -234,7 +234,7 @@
                     viewBox="0 0 24 24"
                     stroke-width="1.5"
                     stroke="currentColor"
-                    class="w-5 h-5 text-black dark:text-white"
+                    class="w-7 h-7 text-black dark:text-white"
                 >
                     <path
                         stroke-linecap="round"
@@ -242,15 +242,15 @@
                         d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25"
                     />
                 </svg>
+
                 <p
-                    class="mr-1 hover:rotate-6 cursor-pointer text-black dark:text-white"
+                    class="mr-1 text-2xl font-semibold hover:rotate-6 cursor-pointer text-black dark:text-white"
                 >
                     <a href="{{route('/')}}">خانه</a>
                 </p>
             </div>
-
             <div>
-                <p class="hover:rotate-6 cursor-pointer text-black dark:text-white">
+                <p class="hover:rotate-6 text-2xl font-semibold cursor-pointer text-black dark:text-white">
                     <a href="{{route('advertising')}}">معرفی ودانلود بازی</a>
                 </p>
             </div>
@@ -258,7 +258,7 @@
             <div>
                 <a href="{{route('relationship')}}">
                     <p
-                        class="hover:rotate-6 cursor-pointer text-black dark:text-white"
+                        class="hover:rotate-6 text-2xl font-semibold cursor-pointer text-black dark:text-white"
                     >
                         <a href="{{route('relationship')}}">تبلیغات</a>
                     </p>
@@ -266,13 +266,13 @@
             </div>
 
             <div>
-                <p class="hover:rotate-6 cursor-pointer text-black dark:text-white">
+                <p class="hover:rotate-6 text-2xl font-semibold cursor-pointer text-black dark:text-white">
                     <a href="{{route('conctus')}}">ارتباط با ما</a>
                 </p>
             </div>
 
             <div>
-                <p class="hover:rotate-6 cursor-pointer text-black dark:text-white">
+                <p class="hover:rotate-6 text-2xl font-semibold cursor-pointer text-black dark:text-white">
                     <a href="{{route('ipserver')}}">لیست سرور ها</a>
                 </p>
             </div>
