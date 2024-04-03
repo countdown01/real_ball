@@ -23,11 +23,11 @@
                 <a href="#" class="icons"><i class="fa-brands fa-github"></i></a>
                 <a href="#" class="icons"><i class="fa-brands fa-linkedin-in"></i></a>
             </div>
-            <span>ایمیل خود را وارد کنید برای ثبت نام</span>
+            <span style="font-size: math">ایمیل خود را وارد کنید برای ثبت نام</span>
             <input type="text" placeholder="نام">
             <input type="email" placeholder="ایمیل">
             <input type="password" placeholder="گذرواژه">
-            <button>Sign Up</button>
+            <button style="font-size: larger">ثبت نام</button>
         </form>
     </div>
     <div class="form-container sign-in">
@@ -39,11 +39,11 @@
                 <a href="#" class="icons"><i class="fa-brands fa-github"></i></a>
                 <a href="#" class="icons"><i class="fa-brands fa-linkedin-in"></i></a>
             </div>
-            <span>ایمیل / گذرواژه را وارد کنید</span>
+            <span style="font-size: math">ایمیل / گذرواژه را وارد کنید</span>
             <input type="email" placeholder="ایمیل">
             <input type="password" placeholder="گذرواژه">
-            <a href="#">گذرواژه خود ر فراموش کرده اید؟</a>
-            <button>ورود</button>
+            <a style="font-size: math" href="#">گذرواژه خود ر فراموش کرده اید؟</a>
+            <button style="font-size: larger">ورود</button>
         </form>
     </div>
     <div class="toggle-container">
@@ -51,12 +51,12 @@
             <div class="toggle-panel toggle-left">
                 <h1>!سلام دوست من</h1>
                 <p>با مشخصات شخصی خود ثبت نام کنید تا از همه امکانات سایت استفاده کنید</p>
-                <button class="hidden" id="login">ورود</button>
+                <button style="font-size: math" class="hidden" id="login">ورود</button>
             </div>
             <div class="toggle-panel toggle-right">
                 <h1>!خوش برگشتی</h1>
                 <p>اطلاعات شخصی خود را وارد کنید تا از تمام ویژگی های سایت استفاده کنید</p>
-                <button class="hidden" id="register">ثبت نام</button>
+                <button style="font-size: math" class="hidden" id="register">ثبت نام</button>
             </div>
         </div>
     </div>
