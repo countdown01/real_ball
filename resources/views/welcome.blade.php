@@ -445,37 +445,37 @@
         >
             <div class="swiper mySwiper5 w-full h-64 md:h-52">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide  relative">
+                    <div class="swiper-slide flex items-center justify-center  relative">
                         <img
                             class="w-full h-full absolute"
-                            src="{{asset('image/1.png')}}"
+                            src="{{asset('image/footer.png.webp')}}"
                             alt=""
                         />
-                        <p class="z-50 text-white">جهت تبلیغ در این کادر کلیک کنید</p>
+                        <p class="z-50 absolute text-white">جهت تبلیغ در این کادر کلیک کنید</p>
                     </div>
-                    <div class="swiper-slide relative">
+                    <div class="swiper-slide flex items-center justify-center  relative">
                         <img
                             class="w-full h-full absolute"
-                            src="{{asset('image/6.png')}}"
+                            src="{{asset('image/picture1.jpg')}}"
                             alt=""
                         />
-                        <p class="z-50 text-white">جهت تبلیغ در این کادر کلیک کنید</p>
+                        <p class="z-50 absolute text-white">جهت تبلیغ در این کادر کلیک کنید</p>
                     </div>
-                    <div class="swiper-slide relative">
+                    <div class="swiper-slide flex items-center justify-center  relative">
                         <img
                             class="w-full h-full absolute"
-                            src="{{asset('image/4.png')}}"
+                            src="{{asset('image/picture5.webp')}}"
                             alt=""
                         />
-                        <p class="z-50 text-white">جهت تبلیغ در این کادر کلیک کنید</p>
+                        <p class="z-50 absolute text-white">جهت تبلیغ در این کادر کلیک کنید</p>
                     </div>
-                    <div class="swiper-slide relative">
+                    <div class="swiper-slide flex items-center justify-center  relative">
                         <img
                             class="w-full h-full absolute"
-                            src="{{asset('image/2.png')}}"
+                            src="{{asset('image/picture4.webp')}}"
                             alt=""
                         />
-                        <p class="z-50 text-white">جهت تبلیغ در این کادر کلیک کنید</p>
+                        <p class="z-50 absolute text-white">جهت تبلیغ در این کادر کلیک کنید</p>
                     </div>
                 </div>
             </div>
@@ -487,11 +487,26 @@
 
             <div class="swiper mySwiper6 w-full h-full">
                 <div class="swiper-wrapper w-full h-full">
-                    <div class="swiper-slide"><img class="w-full h-full" src="{{asset('image/picture5.webp')}}" alt=""></div>
-                    <div class="swiper-slide"><img class="w-full h-full" src="{{asset('image/6.png')}}" alt=""></div>
-                    <div class="swiper-slide"><img class="w-full h-full" src="{{asset('image/7.png')}}" alt=""></div>
-                    <div class="swiper-slide"><img class="w-full h-full" src="{{asset('image/2.png')}}" alt=""></div>
-                    <div class="swiper-slide"><img class="w-full h-full" src="{{asset('image/3.png')}}" alt=""></div>
+                    <div class="swiper-slide relative flex items-center justify-center">
+                        <img class="w-full h-full absolute" src="{{asset('image/picture5.webp')}}" alt="">
+                        <p class="z-50 absolute text-white font-bold">جهت تبلیغ در این کادر کلیک کنید</p>
+                    </div>
+                    <div class="swiper-slide relative flex items-center justify-center">
+                        <img class="w-full h-full absolute" src="{{asset('image/picture1.jpg')}}" alt="">
+                        <p class="z-50 absolute text-white font-bold">جهت تبلیغ در این کادر کلیک کنید</p>
+                    </div>
+                    <div class="swiper-slide relative flex items-center justify-center ">
+                        <img class="w-full h-full absolute" src="{{asset('image/picture3.webp')}}" alt="">
+                        <p class="z-50 absolute text-white font-bold">جهت تبلیغ در این کادر کلیک کنید</p>
+                    </div>
+                    <div class="swiper-slide relative flex items-center justify-center">
+                        <img class="w-full h-full absolute" src="{{asset('image/picture7.jpg')}}" alt="">
+                        <p class="z-50 absolute text-white font-bold">جهت تبلیغ در این کادر کلیک کنید</p>
+                    </div>
+                    <div class="swiper-slide relative flex items-center justify-center">
+                        <img class="w-full h-full absolute" src="{{asset('image/picture9.jpg')}}" alt="">
+                        <p class="z-50 absolute text-white font-bold">جهت تبلیغ در این کادر کلیک کنید</p>
+                    </div>
                 </div>
             </div>
 

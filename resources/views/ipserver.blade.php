@@ -1242,7 +1242,7 @@
         </div>
 
         <div
-            class="mr-24 sm:mr-48 md:mr-56 lg:mr-64 xl:mr-72 grid grid-cols-2 xl:grid-cols-1 space-y-14"
+            class="mr-16 sm:mr-48 md:mr-56 lg:mr-64 xl:mr-72 grid grid-cols-2 xl:grid-cols-1 space-y-14"
         >
 
             <div
