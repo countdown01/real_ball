@@ -10,7 +10,6 @@
 
     @vite('resources/css/login.css')
     @vite('resources/js/login.js')
-    <script src="https://cdn.tailwindcss.com"></script>
 
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
