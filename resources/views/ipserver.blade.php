@@ -10,6 +10,54 @@
     />
     @vite('resources/js/ipserver.js')
     @vite('resources/css/ipserver.css')
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+        .swiper-slide {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+
+    <script>
+        tailwind.config = {
+            darkMode: "class",
+            content: [
+                'resources/**/*.{js,blade.php}',
+                'resources/**/**/*.{js,blade.php}',
+                'resources/**/**/**/*.{js,blade.php}',
+                'resources/**/**/**/**/*.{js,blade.php}',
+                'resources/**/**/**/**/**/*.{js,blade.php}',
+                'resources/**/**/**/**/**/**/*.{js,blade.php}',
+                'resources/**/**/**/**/**/**/**/*.{js,blade.php}',
+                'resources/**/**/**/**/**/**/**/**/*.{js,blade.php}',
+                'resources/**/**/**/**/**/**/**/**/**/*.{js,blade.php}',
+            ],
+            theme: {
+                extend: {
+                    spacing: {
+                        156: "470px",
+                        178: "500px",
+                        186: "570px",
+                        210: "620px",
+                    },
+                    screen: {
+                        "3xl": "1700px",
+                    },
+                    colors: {
+                        silver: "#ecebff",
+                        brown: "#964B00",
+                    },
+                    borderRadius: {
+                        "4xl": "2rem",
+                    },
+                },
+            },
+            plugins: [],
+        }
+    </script>
+
 </head>
 <body class="overflow-x-hidden">
 <header
@@ -1487,5 +1535,108 @@
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+    "use strict";
+
+    let swiper = new Swiper(".mySwiper", {
+        effect: "cards",
+        grabCursor: true,
+    });
+
+    let swiper2 = new Swiper(".mySwiper2", {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+    });
+
+    let swiper3 = new Swiper(".mySwiper3", {
+        effect: "cards",
+        grabCursor: true,
+    });
+
+    let swiper4 = new Swiper(".mySwiper4", {
+        effect: "cards",
+        grabCursor: true,
+    });
+
+    document.addEventListener("DOMContentLoaded", function () {
+        let swiper5 = new Swiper(".mySwiper5", {
+            direction: "vertical",
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            speed: 1000,
+
+            loop: true,
+            slidePerView: 1,
+            autoplay: {
+                dealy: 2000,
+                disableOnInteraction: false,
+            },
+        });
+    });
+
+    document.addEventListener("DOMContentLoaded", function () {
+        let swiper6 = new Swiper(".mySwiper6", {
+            effect: "coverflow",
+            spaceBetween: 50,
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: "auto",
+            coverflowEffect: {
+                rotate: 50,
+                stretch: 0,
+                depth: 100,
+                modifier: 1,
+                slideShadows: true,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+            },
+            speed: 1000,
+
+            loop: true,
+            slidePerView: 1,
+            autoplay: {
+                dealy: 2000,
+                disableOnInteraction: false,
+            },
+        });
+    });
+
+    //#end region for slide
+
+    //#region responsive for header
+
+    const SIDEBAR_OPEN = document.getElementById("sidebarOpen");
+    const SIDEBAR = document.getElementById("sidebar");
+    const CLOSESIDEBA = document.getElementById("closeSidebar");
+    const SEARCHBOX = document.getElementById("searchBox");
+    const SEARCH = document.getElementById("search");
+    const HIDESEARCHBOX = document.getElementById("hideSearchBox");
+
+    SIDEBAR_OPEN.addEventListener("click", function () {
+        SIDEBAR.classList.toggle("hidden");
+    });
+
+    CLOSESIDEBA.addEventListener("click", function () {
+        SIDEBAR.classList.toggle("hidden");
+    });
+
+    SEARCH.addEventListener("click", function () {
+        SEARCHBOX.classList.remove("hidden");
+    });
+
+    HIDESEARCHBOX.addEventListener("click", function () {
+        SEARCHBOX.classList.add("hidden");
+    });
+
+    //#endregion responsive for header
+
+</script>
 </body>
 </html>

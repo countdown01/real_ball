@@ -6,6 +6,46 @@
     <title>Fire-Ball</title>
     @vite('resources/js/app.js')
     @vite('resources/css/app.css')
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+        tailwind.config = {
+            darkMode: "class",
+            content: [
+                'resources/**/*.{js,blade.php}',
+                'resources/**/**/*.{js,blade.php}',
+                'resources/**/**/**/*.{js,blade.php}',
+                'resources/**/**/**/**/*.{js,blade.php}',
+                'resources/**/**/**/**/**/*.{js,blade.php}',
+                'resources/**/**/**/**/**/**/*.{js,blade.php}',
+                'resources/**/**/**/**/**/**/**/*.{js,blade.php}',
+                'resources/**/**/**/**/**/**/**/**/*.{js,blade.php}',
+                'resources/**/**/**/**/**/**/**/**/**/*.{js,blade.php}',
+            ],
+            theme: {
+                extend: {
+                    spacing: {
+                        156: "470px",
+                        178: "500px",
+                        186: "570px",
+                        210: "620px",
+                    },
+                    screen: {
+                        "3xl": "1700px",
+                    },
+                    colors: {
+                        silver: "#ecebff",
+                        brown: "#964B00",
+                    },
+                    borderRadius: {
+                        "4xl": "2rem",
+                    },
+                },
+            },
+            plugins: [],
+        }
+    </script>
+
 </head>
 <body>
 <section class="-mt-32  flex justify-center items-center">
