@@ -384,7 +384,7 @@
             class="w-96 h-96 bg-sky-400 overflow-hidden rounded-full relative mt-24 ml-12 sm:ml-8 md:ml-16"
         >
             <img
-                src="https://gamefireball.ir/public/image/picture1.jpg"
+                src="https://gamefireball.ir/public/image/picture9.jpg"
                 alt="image"
                 class="w-full h-full"
             />
@@ -497,7 +497,7 @@
                     <div class="swiper-slide flex items-center justify-center  relative">
                         <img
                             class="w-full h-full absolute"
-                            src="https://gamefireball.ir/public/image/picture1.jpg"
+                            src="https://gamefireball.ir/public/image/picture9.jpg"
                             alt=""
                         />
                         <p class="z-50 absolute text-white">جهت تبلیغ در این کادر کلیک کنید</p>
@@ -983,7 +983,7 @@
                             <div>
                                 <img
                                     class="w-10 h-10 rounded-full mr-56 lg:mr-44"
-                                    src="https://gamefireball.ir/public/image/IMG_۲۰۲۳۱۰۲۸_۲۲۱۵۲۱.jpg"
+                                    src="https://gamefireball.ir/public/image/mta.png"
                                     alt=""
                                 />
                             </div>
@@ -1011,7 +1011,7 @@
                             <div>
                                 <img
                                     class="w-10 h-10 rounded-full mr-56 lg:mr-44"
-                                    src="https://gamefireball.ir/public/image/1.png"
+                                    src="https://gamefireball.ir/public/image/samp.png"
                                     alt=""
                                 />
                             </div>

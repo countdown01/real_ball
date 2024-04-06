@@ -461,7 +461,7 @@
                             <div>
                                 <img
                                     class="w-10 h-10 rounded-full mr-28 xl:mr-44"
-                                    src="https://gamefireball.ir/public/image/IMG_۲۰۲۳۱۰۲۸_۲۲۱۵۲۱.jpg"
+                                    src="https://gamefireball.ir/public/image/mta.png"
                                     alt=""
                                 />
                             </div>
@@ -486,7 +486,7 @@
                             <div>
                                 <img
                                     class="w-10 h-10 rounded-full mr-28 xl:mr-40"
-                                    src="https://gamefireball.ir/public/image/2.png"
+                                    src="https://gamefireball.ir/public/image/samp.png"
                                     alt=""
                                 />
                             </div>

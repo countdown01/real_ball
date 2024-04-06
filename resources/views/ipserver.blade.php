@@ -537,7 +537,7 @@
 
         <div class="flex flex-col">
             <img
-                src="https://gamefireball.ir/public/image/minecraft.png}"
+                src="https://gamefireball.ir/public/image/minecraft.png"
                 alt="minecraftsvg"
                 class="w-36 h-36 sm:w-20 sm:h-20 rounded-full"
             />
