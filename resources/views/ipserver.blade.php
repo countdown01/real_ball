@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8"/>
+    <link rel="icon" type="image/png" href="https://gamefireball.ir/public/image/fire.png"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>آی پی سرور</title>
     <link
@@ -209,14 +210,14 @@
                 <div
                     class="grid grid-cols-2 -ml-40 sm:-ml-32 md:grid md:grid-cols-2 md:-ml-[105px] lg:-ml-[104px] xl:-ml-14"
                 >
-                    <a href="{{route('login')}}">
+                    <a href="https://gamefireball.ir/resources/views/loginAndRegister.blade.php">
                         <button
                             class="mr-2 text-4xl md:text-base sm:mr-4 md:-mr-16 bg-gradient-to-br from-cyan-400 to-amber-300 dark:bg-white text-white dark:text-black w-36 h-24 sm:w-28 sm:h-16 md:w-28 md:h-14 xl:w-20 xl:h-10 rounded-full rounded-tr-md"
                         >
                             ثبت نام
                         </button>
                     </a>
-                    <a href="{{route('login')}}">
+                    <a href="https://gamefireball.ir/resources/views/loginAndRegister.blade.php">
                         <button
                             class="mr-1 ml-1 text-4xl md:text-base pb-3 md:pb-0 md:-mr-7 bg-slate-800 text-white dark:text-black dark:bg-white w-36 h-24 md:w-28 md:h-14 xl:w-20 xl:h-10 rounded-full rounded-tl-md rounded-r-sm border-4 border-stone-400 pl-2"
                         >
@@ -289,31 +290,31 @@
                         d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25"
                     />
                 </svg>
-                <a href="{{route('/')}}">
+                <a href="https://gamefireball.ir/resources/views/index.blade.php">
                     <p class="mr-1 hover:rotate-6 cursor-pointer">خانه</p>
                 </a>
             </div>
 
             <div>
-                <a href="{{route('advertising')}}">
+                <a href="https://gamefireball.ir/resources/views/advertising.blade.php">
                     <p class="hover:rotate-6 cursor-pointer">معرفی و دانلود بازی</p>
                 </a>
             </div>
 
             <div>
-                <a href="{{route('relationship')}}">
+                <a href="https://gamefireball.ir/resources/views/relationship.blade.php">
                     <p class="hover:rotate-6 cursor-pointer">تبلیغات</p>
                 </a>
             </div>
 
             <div>
-                <a href="{{route('conctus')}}">
+                <a href="https://gamefireball.ir/resources/views/conctus.blade.php">
                     <p class="hover:rotate-6 cursor-pointer">ارتباط با ما</p>
                 </a>
             </div>
 
             <div>
-                <a href="{{route('ipserver')}}">
+                <a href="https://gamefireball.ir/resources/views/ipserver.blade.php">
                     <p class="hover:rotate-6 cursor-pointer">لیست سرور ها</p>
                 </a>
             </div>
@@ -337,31 +338,31 @@
                         d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25"
                     />
                 </svg>
-                <a href="{{route('/')}}">
+                <a href="https://gamefireball.ir/resources/views/index.blade.php">
                     <p class="mr-1 hover:rotate-6 cursor-pointer">خانه</p>
                 </a>
             </div>
 
             <div>
-                <a href="{{route('advertising')}}">
+                <a href="https://gamefireball.ir/resources/views/advertising.blade.php">
                     <p class="hover:rotate-6 cursor-pointer">معرفی و دانلود بازی</p>
                 </a>
             </div>
 
             <div>
-                <a href="{{route('relationship')}}">
+                <a href="https://gamefireball.ir/resources/views/relationship.blade.php">
                     <p class="hover:rotate-6 cursor-pointer">تبلیغات</p>
                 </a>
             </div>
 
             <div>
-                <a href="{{route('conctus')}}">
+                <a href="https://gamefireball.ir/resources/views/conctus.blade.php">
                     <p class="hover:rotate-6 cursor-pointer">ارتباط با ما</p>
                 </a>
             </div>
 
             <div>
-                <a href="{{route('ipserver')}}">
+                <a href="https://gamefireball.ir/resources/views/ipserver.blade.php">
                     <p class="hover:rotate-6 cursor-pointer">لیست سرور ها</p>
                 </a>
             </div>
@@ -378,19 +379,19 @@
             class="flex text-3xl sm:text-base overflow-hidden relative   items-center justify-center bg-slate-200 w-210 h-20 sm:w-96 sm:h-14 md:w-64 md:h-14 rounded-xl"
         >
             <p class="text-white z-50">جهت تبلیغ در این کادر کلیک کنید</p>
-            <img class="w-full absolute h-full" src="{{asset('image/6.png')}}" alt="">
+            <img class="w-full absolute h-full" src="https://gamefireball.ir/public/image/6.png" alt="">
         </div>
         <div
             class="flex text-3xl sm:text-base overflow-hidden relative   items-center justify-center bg-slate-200 w-210 h-20 sm:w-96 sm:h-14 md:w-64 md:h-14 rounded-xl"
         >
             <p class="text-white z-50">جهت تبلیغ در این کادر کلیک کنید</p>
-            <img class="w-full absolute h-full" src="{{asset('image/4.png')}}" alt="">
+            <img class="w-full absolute h-full" src="https://gamefireball.ir/public/image/4.png" alt="">
         </div>
         <div
             class="flex text-3xl sm:text-base overflow-hidden relative   items-center justify-center bg-slate-200 w-210 h-20 sm:w-96 sm:h-14 md:w-64 md:h-14 rounded-xl"
         >
             <p class="text-white z-50">جهت تبلیغ در این کادر کلیک کنید</p>
-            <img class="w-full absolute h-full" src="{{asset('image/2.png')}}" alt="">
+            <img class="w-full absolute h-full" src="https://gamefireball.ir/public/image/2.png" alt="">
         </div>
     </div>
 
@@ -400,27 +401,27 @@
         <div class="swiper mySwiper6 w-full h-full md:h-80" dir="rtl">
             <div class="swiper-wrapper">
                 <div class="swiper-slide relative">
-                    <img class="w-full h-full absolute" src="{{asset('image/6.png')}}" alt=""/>
+                    <img class="w-full h-full absolute" src="https://gamefireball.ir/public/image/6.png" alt=""/>
                     <p class="z-50 text-white text-2xl">جهت تبلیغ در این کادر کیلک کنید</p>
                 </div>
                 <div class="swiper-slide relative">
-                    <img class="w-full h-full absolute" src="{{asset('image/4.png')}}" alt=""/>
+                    <img class="w-full h-full absolute" src="https://gamefireball.ir/public/image/4.png" alt=""/>
                     <p class="z-50 text-white text-2xl">جهت تبلیغ در این کادر کیلک کنید</p>
                 </div>
                 <div class="swiper-slide relative">
-                    <img class="w-full h-full absolute" src="{{asset('image/3.png')}}" alt=""/>
+                    <img class="w-full h-full absolute" src="https://gamefireball.ir/public/image/3.png" alt=""/>
                     <p class="z-50 text-white text-2xl">جهت تبلیغ در این کادر کیلک کنید</p>
                 </div>
                 <div class="swiper-slide relative">
-                    <img class="w-full h-full absolute" src="{{asset('image/2.png')}}" alt=""/>
+                    <img class="w-full h-full absolute" src="https://gamefireball.ir/public/image/2.png" alt=""/>
                     <p class="z-50 text-white text-2xl">جهت تبلیغ در این کادر کیلک کنید</p>
                 </div>
                 <div class="swiper-slide relative">
-                    <img class="w-full h-full absolute" src="{{asset('image/1.png')}}" alt=""/>
+                    <img class="w-full h-full absolute" src="https://gamefireball.ir/public/image/1.png" alt=""/>
                     <p class="z-50 text-white text-2xl">جهت تبلیغ در این کادر کیلک کنید</p>
                 </div>
                 <div class="swiper-slide relative">
-                    <img class="w-full h-full absolute" src="{{asset('image/2.png')}}" alt=""/>
+                    <img class="w-full h-full absolute" src="https://gamefireball.ir/public/image/2.png" alt=""/>
                     <p class="z-50 text-white text-2xl">جهت تبلیغ در این کادر کیلک کنید</p>
                 </div>
             </div>
@@ -435,7 +436,7 @@
                 <div class="swiper-slide  relative">
                     <img
                         class="w-full h-full absolute"
-                        src="{{asset('image/1.png')}}"
+                        src="https://gamefireball.ir/public/image/1.png"
                         alt=""
                     />
                     <p class="z-50 text-white">جهت تبلیغ در این کادر کلیک کنید</p>
@@ -443,7 +444,7 @@
                 <div class="swiper-slide relative">
                     <img
                         class="w-full h-full absolute"
-                        src="{{asset('image/6.png')}}"
+                        src="https://gamefireball.ir/public/image/6.png"
                         alt=""
                     />
                     <p class="z-50 text-white">جهت تبلیغ در این کادر کلیک کنید</p>
@@ -451,7 +452,7 @@
                 <div class="swiper-slide relative">
                     <img
                         class="w-full h-full absolute"
-                        src="{{asset('image/4.png')}}"
+                        src="https://gamefireball.ir/public/image/4.png"
                         alt=""
                     />
                     <p class="z-50 text-white">جهت تبلیغ در این کادر کلیک کنید</p>
@@ -459,7 +460,7 @@
                 <div class="swiper-slide relative">
                     <img
                         class="w-full h-full absolute"
-                        src="{{asset('image/2.png')}}"
+                        src="https://gamefireball.ir/public/image/2.png"
                         alt=""
                     />
                     <p class="z-50 text-white">جهت تبلیغ در این کادر کلیک کنید</p>
@@ -506,7 +507,7 @@
     >
         <div class="flex flex-col">
             <img
-                src="{{asset('image/gta v.png')}}"
+                src="https://gamefireball.ir/public/image/gta v.png"
                 alt="minecraftsvg"
                 class="w-36 h-36 sm:w-20 sm:h-20 rounded-full"
             />
@@ -516,7 +517,7 @@
 
         <div class="flex flex-col">
             <img
-                src="{{asset('image/mta.png')}}"
+                src="https://gamefireball.ir/public/image/mta.png"
                 alt="minecraftsvg"
                 class="w-36 h-36 sm:w-20 sm:h-20 rounded-full"
             />
@@ -526,7 +527,7 @@
 
         <div class="flex flex-col">
             <img
-                src="{{asset('image/samp.jfif')}}"
+                src="https://gamefireball.ir/public/image/samp.jfif"
                 alt="minecraftsvg"
                 class="w-36 h-36 sm:w-20 sm:h-20 rounded-full"
             />
@@ -536,7 +537,7 @@
 
         <div class="flex flex-col">
             <img
-                src="{{asset('image/minecraft.png')}}"
+                src="https://gamefireball.ir/public/image/minecraft.png}"
                 alt="minecraftsvg"
                 class="w-36 h-36 sm:w-20 sm:h-20 rounded-full"
             />
@@ -547,7 +548,7 @@
 
     <div class="mt-6">
         <a
-            href="{{route('relationship')}}"
+            href="https://gamefireball.ir/resources/views/relationship.blade.php"
             target="_parent"
             class="text-orange-500 font-bold text-3xl md:text-lg hover:text-blue-500"
         >جهت ثبت ادرس سرور خود کلیک کنید</a
@@ -560,7 +561,7 @@
         >
             <img
                 class="w-14 h-14 md:w-9 md:h-9"
-                src="{{asset('image/rubika.png')}}"
+                src="https://gamefireball.ir/public/image/rubika.png"
                 alt=""
             />
             <a href="https://rubika.ir/Fire__Ball">
@@ -1282,7 +1283,7 @@
             <div
                 class="flex items-center justify-center cursor-pointer text-orange-500 font-bold text-3xl md:text-lg mr-[380px] xl:mr-210 mt-10 xl:mt-28 hover:text-blue-300"
             >
-                <a href="{{route('relationship')}}">
+                <a href="https://gamefireball.ir/resources/views/relationship.blade.php">
                     جهت اضافه کردن سرور خود کلیک کنید
                 </a>
             </div>
@@ -1299,7 +1300,7 @@
                 <p class="cursor-pointer absolute font-bold text-white text-2xl md:text-base hover:text-sky-600">
                     جهت تبلیغ در این کادر کلیک کنید
                 </p>
-                <img class="w-full h-full" src="{{asset('image/1.png')}}" alt="">
+                <img class="w-full h-full" src="https://gamefireball.ir/public/image/1.png" alt="">
             </div>
 
 
@@ -1307,21 +1308,21 @@
                 <p class="cursor-pointer absolute font-bold text-white text-2xl md:text-base hover:text-sky-600">
                     جهت تبلیغ در این کادر کلیک کنید
                 </p>
-                <img class="w-full h-full" src="{{asset('image/2.png')}}" alt="">
+                <img class="w-full h-full" src="https://gamefireball.ir/public/image/2.png" alt="">
             </div>
 
             <div class="flex items-center overflow-hidden justify-center w-80 h-72 md:w-64 md:h-60  bg-orange-500">
                 <p class="cursor-pointer absolute font-bold text-white text-2xl md:text-base hover:text-sky-600">
                     جهت تبلیغ در این کادر کلیک کنید
                 </p>
-                <img class="w-full h-full" src="{{asset('image/3.png')}}" alt="">
+                <img class="w-full h-full" src="https://gamefireball.ir/public/image/3.png" alt="">
             </div>
 
             <div class="flex items-center overflow-hidden justify-center w-80 h-72 md:w-64 md:h-60 bg-orange-500">
                 <p class="cursor-pointer absolute font-bold text-white text-2xl md:text-base hover:text-sky-600">
                     جهت تبلیغ در این کادر کلیک کنید
                 </p>
-                <img class="w-full h-full" src="{{asset('image/4.png')}}" alt="">
+                <img class="w-full h-full" src="https://gamefireball.ir/public/image/4.png" alt="">
             </div>
         </div>
     </div>
@@ -1358,7 +1359,7 @@
                 برای ثبت ایمیل روی دکمه پایین کلیک کنید
             </p>
             <div class="flex items-center justify-center mt-3">
-                <a href="{{route('login')}}">
+                <a href="https://gamefireball.ir/resources/views/loginAndRegister.blade.php">
                     <button
                         class="text-sm md:text-base flex bg-red-600 rounded-md px-0.5 py-0.5"
                     >
@@ -1412,7 +1413,7 @@
                         <div class="flex ml-8 gap-x-2">
                             <img
                                 class="w-6 h-6 sm:w-7 sm:h-7 md:w-8 md:h-8"
-                                src="{{asset('image/rubika.png')}}"
+                                src="https://gamefireball.ir/public/image/rubika.png"
                                 alt=""
                             />
 
@@ -1438,16 +1439,16 @@
                 <div class="mr-4 mt-6 md:mr-0 md:mt-0">
                     <p class="font-bold text-lg">لینک های سریع :</p>
                     <div class="font-normal cursor-pointer">
-                        <a href="{{route('/')}}">
+                        <a href="https://gamefireball.ir/resources/views/index.blade.php">
                             <p class="hover:text-blue-300">صفحه اصلی</p>
                         </a>
-                        <a href="{{route('advertising')}}">
+                        <a href="https://gamefireball.ir/resources/views/advertising.blade.php">
                             <p class="hover:text-blue-300">معرفی و دانلود بازی</p>
                         </a>
-                        <a href="{{route('ipserver')}}">
+                        <a href="https://gamefireball.ir/resources/views/ipserver.blade.php">
                             <p class="hover:text-blue-300">لیست سرور ها</p>
                         </a>
-                        <a href="{{route('relationship')}}">
+                        <a href="https://gamefireball.ir/resources/views/relationship.blade.php">
                             <p class="hover:text-blue-300">تبلیغات</p>
                         </a>
                     </div>
@@ -1528,7 +1529,7 @@
 
     <img
         class="h-[660px] md:h-[430px] w-full absolute z-10"
-        src="{{asset('image/footer2.png')}}"
+        src="https://gamefireball.ir/public/image/footer2.png"
         alt=""
     />
 </div>

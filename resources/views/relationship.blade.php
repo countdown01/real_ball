@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="icon" type="image/png" href="https://gamefireball.ir/public/image/fire.png"/>
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -187,7 +188,7 @@
         >
             <div class="flex items-center justify-center mt-6 gap-x-2">
                 <div>
-                    <img class="w-6 h-6" src="{{asset('image/rubika.png')}}" alt=""/>
+                    <img class="w-6 h-6" src="https://gamefireball.ir/public/image/rubika.png" alt=""/>
                 </div>
                 <a href="https://rubika.ir/Fire__Ball">
                     <p class="cursor-pointer hover:text-blue-400">دنبال کردن</p>
@@ -199,7 +200,7 @@
 
 
     <div class="flex items-center justify-center">
-        <a href="{{route('/')}}">
+        <a href="https://gamefireball.ir/resources/views/index.blade.php">
             <button
                 class="mt-14 sm:mt-16 bg-stone-600 text-white py-2 px-1 rounded-xl"
             >
