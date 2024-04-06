@@ -8,8 +8,7 @@
         rel="stylesheet"
         href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
-    @vite('resources/css/app.css')
-    @vite('resources/js/app.js')
+
     <script src="https://cdn.tailwindcss.com"></script>
 
 
@@ -287,7 +286,7 @@
                 <p
                     class="mr-1 text-2xl font-semibold hover:rotate-6 cursor-pointer text-black dark:text-white"
                 >
-                    <a href="{{route('/')}}">خانه</a>
+                    <a href="{{'/'}}">خانه</a>
                 </p>
             </div>
             <div>
@@ -384,7 +383,7 @@
             class="w-96 h-96 bg-sky-400 overflow-hidden rounded-full relative mt-24 ml-12 sm:ml-8 md:ml-16"
         >
             <img
-                src="{{asset('image/picture1.jpg')}}"
+                src="../../public/image/picture1.jpg"
                 alt="image"
                 class="w-full h-full"
             />

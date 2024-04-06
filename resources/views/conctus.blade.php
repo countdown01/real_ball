@@ -3,13 +3,12 @@
 <head>
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Document</title>
+    <title>ارتباط با ما</title>
     <link
         rel="stylesheet"
         href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
-    @vite('resources/css/conctus.css')
-    @vite('resources/js/conctus.js')
+
     <script src="https://cdn.tailwindcss.com"></script>
 
     <style>
