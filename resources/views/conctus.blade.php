@@ -80,7 +80,7 @@
                                     viewBox="0 0 24 24"
                                     stroke-width="1.5"
                                     stroke="currentColor"
-                                    class="w-6 h-6 text-gray-600"
+                                    class="w-7 h-7 text-gray-600"
                                 >
                                     <path
                                         stroke-linecap="round"
@@ -90,8 +90,9 @@
                                 </svg>
                             </button>
                         </div>
-                        <p class="-mr-3 -mt-8 md:-mt-2 md:-mr-12  dark:text-white text-black">توپ</p>
-                        <p class="-mr-4 md:-mr-14 dark:text-white text-black">آتشین</p>
+                        <p class="-mr-3 -mt-8 md:-mt-2 md:-mr-12 text-3xl   dark:text-white text-black">
+                            توپ</p>
+                        <p class="-mr-4 md:-mr-14 dark:text-white text-3xl text-black">آتشین</p>
                     </div>
 
                     <div>
@@ -101,7 +102,7 @@
                             viewBox="0 0 24 24"
                             stroke-width="1.5"
                             stroke="currentColor"
-                            class="-mt-10 -mr-2 w-10 h-10 sm:-mr-5 md:-mr-5 lg:-mr-5"
+                            class="-mt-10 -mr-7 w-10 h-10 sm:-mr-5 md:-mr-5 lg:-mr-5"
                         >
                             <path
                                 stroke-linecap="round"
@@ -118,17 +119,17 @@
                 </div>
 
                 <div
-                    class="mt-6 -mr-28 sm:ml-32 sm:-mr-40 md:pt-2 md:-mr-20 lg:-mr-24 xl:-mr-20 grid grid-cols-2 mb-24 gap-x-9"
+                    class="mt-8 -mr-28 sm:ml-32 sm:-mr-40 md:pt-2 md:-mr-20 lg:-mr-24 xl:-mr-20 grid grid-cols-2 mb-24 gap-x-9 lg:gap-x-14"
                 >
                     <div
-                        class="mr-14  sm:-mr-4 md:mr-1 lg:mr-3 w-8 h-8 border border-gray-400 rounded-full flex items-center justify-center"
+                        class="mr-[68px]  sm:-mr-4 md:mr-1 lg:mr-3 w-9 h-9 md:w-8 md:h-8 border border-gray-400 rounded-full flex items-center justify-center"
                         id="btn-light"
                     >
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 24 24"
                             fill="currentColor"
-                            class="w-5 h-5 dark:text-slate-100 text-slate-400"
+                            class="w-6 h-6 md:w-5 md:h-5 dark:text-slate-100 text-slate-400"
                         >
                             <path
                                 d="M12 2.25a.75.75 0 01.75.75v2.25a.75.75 0 01-1.5 0V3a.75.75 0 01.75-.75zM7.5 12a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM18.894 6.166a.75.75 0 00-1.06-1.06l-1.591 1.59a.75.75 0 101.06 1.061l1.591-1.59zM21.75 12a.75.75 0 01-.75.75h-2.25a.75.75 0 010-1.5H21a.75.75 0 01.75.75zM17.834 18.894a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 10-1.061 1.06l1.59 1.591zM12 18a.75.75 0 01.75.75V21a.75.75 0 01-1.5 0v-2.25A.75.75 0 0112 18zM7.758 17.303a.75.75 0 00-1.061-1.06l-1.591 1.59a.75.75 0 001.06 1.061l1.591-1.59zM6 12a.75.75 0 01-.75.75H3a.75.75 0 010-1.5h2.25A.75.75 0 016 12zM6.697 7.757a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 00-1.061 1.06l1.59 1.591z"
@@ -137,14 +138,14 @@
                     </div>
 
                     <div
-                        class="-mr-28  w-8 h-8 border border-gray-400 rounded-full flex items-center justify-center"
+                        class="-mr-32  w-9 h-9 md:w-8 md:h-8 border border-gray-400 rounded-full flex items-center justify-center"
                         id="btn-dark"
                     >
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 24 24"
                             fill="currentColor"
-                            class="w-5 h-5 text-gray-400 dark:text-slate-100"
+                            class="w-6 h-6 md:w-5 md:h-5  text-gray-400 dark:text-slate-100"
                         >
                             <path
                                 fill-rule="evenodd"
@@ -186,7 +187,7 @@
                 </div>
             </div>
 
-            <div class="-ml-32 -mt-36 sm:-ml-36 md:mr-44 grid grid-cols-4">
+            <div class="-ml-32 -mr-14 sm:mr-0 -mt-36 sm:-ml-36 md:mr-44 grid grid-cols-4">
                 <button id="search" class="sm:mr-2 md:hidden">
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -194,7 +195,7 @@
                         viewBox="0 0 24 24"
                         stroke-width="1.5"
                         stroke="currentColor"
-                        class="mr-14 mb-2 w-8 h-8 p-1 rounded-full bg-gray-800 text-white hover:text-gray-600 cursor-pointer"
+                        class="mr-14 mb-2 w-10 h-10 md:w-8 md:h-8 p-1 rounded-full bg-gray-800 text-white hover:text-gray-600 cursor-pointer"
                     >
                         <path
                             stroke-linecap="round"
@@ -205,14 +206,14 @@
                 </button>
                 <a href="https://gamefireball.ir/resources/views/loginAndRegister.blade.php">
                     <button
-                        class="mr-2 sm:mr-4 md:-mr-16 bg-gradient-to-br from-cyan-400 to-amber-300 dark:bg-white text-white dark:text-black w-20 h-10 rounded-full rounded-tr-md"
+                        class="text-xl font-semibold md:text-base mr-1 sm:mr-4 md:-mr-16 bg-gradient-to-br from-cyan-400 to-amber-300 dark:bg-white text-white dark:text-black w-24 h-12 md:w-20 md:h-10 rounded-full rounded-tr-md"
                     >
                         ثبت نام
                     </button>
                 </a>
                 <a href="https://gamefireball.ir/resources/views/loginAndRegister.blade.php">
                     <button
-                        class="mr-1 ml-1 md:-mr-7 bg-slate-800 text-white dark:text-black dark:bg-white w-20 h-10 rounded-full rounded-tl-md rounded-r-sm border-4 border-stone-400 pl-2"
+                        class="text-2xl md:text-base mr-1 ml-1 md:-mr-7 bg-slate-800 text-white dark:text-black dark:bg-white w-24 h-12 md:w-20 md:h-10 rounded-full rounded-tl-md rounded-r-sm border-4 border-stone-400 pl-2"
                     >
                         ورود
                     </button>
@@ -285,31 +286,31 @@
                     />
                 </svg>
                 <a href="https://gamefireball.ir/resources/views/index.blade.php">
-                    <p class="mr-1 hover:rotate-6 cursor-pointer  dark:text-white">خانه</p>
+                    <p class="mr-1 cursor-pointer  dark:text-white">خانه</p>
                 </a>
             </div>
 
             <div>
                 <a href="https://gamefireball.ir/resources/views/advertising.blade.php">
-                    <p class="hover:rotate-6 cursor-pointer  dark:text-white">معرفی و دانلود بازی</p>
+                    <p class=" cursor-pointer  dark:text-white">معرفی و دانلود بازی</p>
                 </a>
             </div>
 
             <div>
                 <a href="https://gamefireball.ir/resources/views/relationship.blade.php">
-                    <p class="hover:rotate-6 cursor-pointer  dark:text-white">تبلیغات</p>
+                    <p class=" cursor-pointer  dark:text-white">تبلیغات</p>
                 </a>
             </div>
 
             <div>
                 <a href="https://gamefireball.ir/resources/views/conctus.blade.php">
-                    <p class="hover:rotate-6 cursor-pointer  dark:text-white">ارتباط با ما</p>
+                    <p class=" cursor-pointer  dark:text-white">ارتباط با ما</p>
                 </a>
             </div>
 
             <div>
                 <a href="https://gamefireball.ir/resources/views/ipserver.blade.php">
-                    <p class="hover:rotate-6 cursor-pointer dark:text-white">لیست سرور ها</p>
+                    <p class=" cursor-pointer dark:text-white">لیست سرور ها</p>
                 </a>
             </div>
         </div>
@@ -486,7 +487,7 @@
                             <div>
                                 <img
                                     class="w-10 h-10 rounded-full mr-28 xl:mr-40"
-                                    src="https://gamefireball.ir/public/image/samp.png"
+                                    src="https://gamefireball.ir/public/image/minecraft.png"
                                     alt=""
                                 />
                             </div>
@@ -519,32 +520,37 @@
                 <div class="swiper mySwiper w-full h-full ">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide relative">
-                            <img class="w-full h-full absolute" src="https://gamefireball.ir/public/image/1.png" alt="">
-                            <p class="text-white z-50">جهت تبلیغ در این کادر کیلک کنید</p>
+                            <img class="w-full h-full absolute" src="https://gamefireball.ir/public/image/picture1.jpg"
+                                 alt="">
+                            <p class="text-white font-semibold text-sm md:text-base z-50">جهت تبلیغ در این کادر کیلک
+                                کنید</p>
                         </div>
                         <div class="swiper-slide relative">
                             <img
                                 class="w-full h-full absolute"
-                                src="https://gamefireball.ir/public/image/3.png"
+                                src="https://gamefireball.ir/public/image/picture3.webp"
                                 alt=""
                             />
-                            <p class="z-50 text-white">جهت تبلیغ در این کادر کلیک کنید</p>
+                            <p class="z-50 font-semibold text-sm md:text-base mt-7  text-white">جهت تبلیغ در این کادر
+                                کلیک کنید</p>
                         </div>
                         <div class="swiper-slide relative">
                             <img
                                 class="w-full h-full absolute"
-                                src="https://gamefireball.ir/public/image/4.png"
+                                src="https://gamefireball.ir/public/image/picture2.webp"
                                 alt=""
                             />
-                            <p class="z-50 text-white">جهت تبلیغ در این کادر کلیک کنید</p>
+                            <p class="z-50 font-semibold text-sm md:text-base text-white">جهت تبلیغ در این کادر کلیک
+                                کنید</p>
                         </div>
                         <div class="swiper-slide relative">
                             <img
                                 class="w-full h-full absolute"
-                                src="https://gamefireball.ir/public/image/6.png"
+                                src="https://gamefireball.ir/public/image/picture9.jpg"
                                 alt=""
                             />
-                            <p class="z-50 text-white">جهت تبلیغ در این کادر کلیک کنید</p>
+                            <p class="z-50 font-semibold text-sm md:text-base text-white">جهت تبلیغ در این کادر کلیک
+                                کنید</p>
                         </div>
                     </div>
                 </div>
@@ -554,32 +560,37 @@
                 <div class="swiper mySwiper w-full h-full ">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide relative">
-                            <img class="w-full h-full absolute" src="https://gamefireball.ir/public/image/1.png" alt="">
-                            <p class="text-white z-50">جهت تبلیغ در این کادر کیلک کنید</p>
+                            <img class="w-full h-full absolute" src="https://gamefireball.ir/public/image/picture1.jpg"
+                                 alt="">
+                            <p class="text-white font-semibold text-sm md:text-base z-50">جهت تبلیغ در این کادر کیلک
+                                کنید</p>
                         </div>
                         <div class="swiper-slide relative">
                             <img
                                 class="w-full h-full absolute"
-                                src="https://gamefireball.ir/public/image/3.png"
+                                src="https://gamefireball.ir/public/image/picture3.webp"
                                 alt=""
                             />
-                            <p class="z-50 text-white">جهت تبلیغ در این کادر کلیک کنید</p>
+                            <p class="z-50 font-semibold text-sm mt-7 md:text-base text-white">جهت تبلیغ در این کادر
+                                کلیک کنید</p>
                         </div>
                         <div class="swiper-slide relative">
                             <img
                                 class="w-full h-full absolute"
-                                src="https://gamefireball.ir/public/image/4.png"
+                                src="https://gamefireball.ir/public/image/picture2.webp"
                                 alt=""
                             />
-                            <p class="z-50 text-white">جهت تبلیغ در این کادر کلیک کنید</p>
+                            <p class="z-50 font-semibold text-sm md:text-base text-white">جهت تبلیغ در این کادر کلیک
+                                کنید</p>
                         </div>
                         <div class="swiper-slide relative">
                             <img
                                 class="w-full h-full absolute"
-                                src="https://gamefireball.ir/public/image/6.png"
+                                src="https://gamefireball.ir/public/image/picture9.jpg"
                                 alt=""
                             />
-                            <p class="z-50 text-white">جهت تبلیغ در این کادر کلیک کنید</p>
+                            <p class="z-50 font-semibold text-sm md:text-base text-white">جهت تبلیغ در این کادر کلیک
+                                کنید</p>
                         </div>
                     </div>
                 </div>
@@ -691,9 +702,13 @@
 </main>
 
 
-<div class=" relative hidden xl:mt-80 xl:block" dir="rtl">
+<!--start footer-->
+<div
+    class="relative w-[647px] mt-[950px]  sm:w-[830px]  sm:mt-0 md:w-[940px] lg:w-[1373px] xl:w-[1427px] xl:mt-96"
+    dir="rtl"
+>
     <footer
-        class="z-20 bg-gray-900/65 w-full h-[660px] md:h-[430px] text-white absolute "
+        class="z-20 bg-gray-900/65 w-full h-[660px] md:h-[430px] text-white absolute"
     >
         <div class="pt-1">
             <div class="flex items-center justify-center">
@@ -718,22 +733,22 @@
                 </svg>
             </div>
 
-            <p class="text-sm flex items-center justify-center pt-2 md:font-bold">
+            <p class="text-xl lg:text-sm flex items-center justify-center pt-2 md:font-bold">
                 برای ثبت ایمیل روی دکمه پایین کلیک کنید
             </p>
             <div class="flex items-center justify-center mt-3">
                 <a href="https://gamefireball.ir/resources/views/loginAndRegister.blade.php">
                     <button
-                        class="text-sm md:text-base flex bg-red-600 rounded-md px-0.5 py-0.5"
+                        class="text-sm md:text-base flex bg-red-600 rounded-md px-2 py-2 lg:px-0.5 lg:py-0.5"
                     >
-                        <p>ثبت ایمیل</p>
+                        <p class="text-xl lg:text-base">ثبت ایمیل</p>
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             fill="none"
                             viewBox="0 0 24 24"
                             stroke-width="1.5"
                             stroke="currentColor"
-                            class="w-4 h-4 md:w-6 md:h-6 rotate-180 mt-1 mr-1"
+                            class="w-7 h-7 md:w-6 md:h-6 rotate-180 mt-1 mr-1"
                         >
                             <path
                                 stroke-linecap="round"
@@ -750,7 +765,7 @@
             </div>
 
             <div class="grid grid-cols-2 mt-2">
-                <div class="font-bold text-lg sm:text-xl md:text-2xl mr-2">
+                <div class="font-bold text-2xl lg:text-lg sm:text-xl md:text-2xl mr-2">
                     توپ آتشین
                 </div>
 
@@ -759,29 +774,29 @@
                         <div class="flex gap-x-2">
                             <img
                                 data-v-d7e8173f=""
-                                class="app-preview__image-origin w-6 h-6 sm:w-7 sm:h-7 md:w-8 md:h-8 bg-white rounded-md"
+                                class="app-preview__image-origin w-9 h-9 sm:w-7 sm:h-7 md:w-8 md:h-8 bg-white rounded-md"
                                 srcset="
-                    https://img.icons8.com/?size=256&amp;id=98970&amp;format=png 1x,
-                    https://img.icons8.com/?size=512&amp;id=98970&amp;format=png 2x
-                  "
+                      https://img.icons8.com/?size=256&amp;id=98970&amp;format=png 1x,
+                      https://img.icons8.com/?size=512&amp;id=98970&amp;format=png 2x
+                    "
                                 width="256"
                                 height="256"
                                 alt="Telegram icon"
                             />
                             <a href="https://t.me/Fire_ball00">
-                                <p class="cursor-pointer hover:text-blue-400">دنبال کردن</p>
+                                <p class="text-xl hover:text-blue-300 font-semibold sm:text-base">تلگرام</p>
                             </a>
                         </div>
 
                         <div class="flex ml-8 gap-x-2">
                             <img
-                                class="w-6 h-6 sm:w-7 sm:h-7 md:w-8 md:h-8"
+                                class="w-9 h-9 sm:w-7 sm:h-7 md:w-8 md:h-8"
                                 src="https://gamefireball.ir/public/image/rubika.png"
                                 alt=""
                             />
 
                             <a href="https://rubika.ir/Fire__Ball">
-                                <p class="cursor-pointer hover:text-blue-400">دنبال کردن</p>
+                                <p class="text-xl font-semibold hover:text-blue-300 sm:text-base">روبیکا</p>
                             </a>
                         </div>
                     </div>
@@ -792,14 +807,17 @@
                 class="mt-4 md:grid md:grid-cols-3 md:justify-items-center md:mt-14"
             >
                 <div
-                    class="mt-8 sm:text-lg md:mt-0 px-8 md:px-0 text-center font-semibold"
+                    class="text-xl lg:text-base mt-8 mr-6 sm:text-lg md:mt-0 px-8 md:px-0 text-center font-semibold"
                 >
-                    <p>این سایت برای دانلود بازی های برتر استفاده میشود.</p>
-                    <p>برای اطلاعات بیشتر به کانال تلگرام یا روبیکا</p>
-                    <p>مراجعه کنید.</p>
+                    <p>
+                        با سلام و احترام ما همراه در تلاشیم که بهترین هارا برای شما به
+                        ارمغان بیاوریم .هدف این سایت معرفی بهترین و بروز ترین پلتفرم های
+                        بازی و ارائه سرور های انلاین می باشد. با تشکر از شما که مارا در
+                        این راه همیاری می کنید
+                    </p>
                 </div>
 
-                <div class="mr-4 mt-6 md:mr-0 md:mt-0">
+                <div class="text-xl lg:text-base mr-4 mt-6 md:mr-0 md:mt-0">
                     <p class="font-bold text-lg">لینک های سریع :</p>
                     <div class="font-normal cursor-pointer">
                         <a href="https://gamefireball.ir/resources/views/index.blade.php">
@@ -821,9 +839,9 @@
                     class="mt-4 md:mt-0 space-y-2 flex flex-col ml-4 items-end justify-end"
                 >
                     <div>
-                        تلفن :
-                        <a href="tel:+989389725209">
-                            <span class="mr-1 font-bold" dir="ltr">0938-972-5209</span>
+                        تلفن مدیر سایت :
+                        <a href="tel:+989309977430">
+                            <span class="mr-1 font-bold hover:text-blue-300" dir="ltr">0930-997-7430</span>
                         </a>
                     </div>
 
@@ -844,13 +862,13 @@
 
             <div class="grid grid-cols-2 mt-4">
                 <div
-                    class="text-sm sm:font-semibold md:text-base flex items-start justify-start mr-2"
+                    class="text-md sm:font-semibold md:text-base flex items-start justify-start mr-2"
                 >
-                    design with group diyarox
+                    <a href="tel:+989389725209" class="ml-2">09389725209</a> : website designer Taha
                 </div>
 
                 <div class="flex items-end justify-end ml-4">
-                    <div class="mb-0.5 ml-1">
+                    <div class="mb-0.5  ml-1">
                         <svg
                             class="-rotate-90 dark:text-red-950 text-blue-980 mt-1"
                             width="17"
@@ -861,28 +879,28 @@
                         >
                             <path
                                 d="M8.83538 10.3C9.27844 10.6121 9.74293 10.8745 10.2217 11.0731C10.519 11.1809
-            10.9855 10.8756 11.3285 10.6511L11.3286 10.6511C11.4143 10.595
-            11.4923 10.544 11.558 10.5057L11.5796 10.4936C11.9027 10.3121 12.2615
-            10.1106 12.7228 10.2078C13.1373 10.2929 14.5594 11.4136 14.9524 11.8108C15.2097
-            12.0661 15.3526 12.3357 15.374 12.6123C15.4169 13.6408 14.0377 14.7969 13.709
-            14.9955C13.0087 15.5062 12.0725 15.4991 10.9435 14.9884C9.73579 14.499 8.29228
-            13.4705 6.8988 12.2222C6.39998 11.7753 5.44205 10.8344 5.16944 10.5202C3.76167
-            8.99521 2.57543 7.35674 2.01803 6.03036C1.75363 5.47002 1.625 4.95224 1.625
-            4.4912C1.625 4.03725 1.75363 3.63295 2.00374 3.2854C2.15381 3.02296 3.36149
-            1.59018 4.42625 1.62565C4.69066 1.65402 4.96221 1.78878 5.22661 2.04413C5.62679
-            2.43424 6.7773 3.84574 6.86306 4.26422C6.96089 4.71509 6.75803 5.07099 6.57526
-            5.39163L6.57526 5.39163L6.56292 5.41328C6.52173 5.48445 6.46588 5.56888 6.40483
-            5.66117L6.40482 5.66118C6.1799 6.0012 5.8843 6.44805 5.99052 6.73257C6.25564
-            7.38512 6.63438 8.02348 7.09102 8.6122C7.59779 9.21811 8.39233 9.98789 8.83538 10.3Z"
+                10.9855 10.8756 11.3285 10.6511L11.3286 10.6511C11.4143 10.595
+                11.4923 10.544 11.558 10.5057L11.5796 10.4936C11.9027 10.3121 12.2615
+                10.1106 12.7228 10.2078C13.1373 10.2929 14.5594 11.4136 14.9524 11.8108C15.2097
+                12.0661 15.3526 12.3357 15.374 12.6123C15.4169 13.6408 14.0377 14.7969 13.709
+                14.9955C13.0087 15.5062 12.0725 15.4991 10.9435 14.9884C9.73579 14.499 8.29228
+                13.4705 6.8988 12.2222C6.39998 11.7753 5.44205 10.8344 5.16944 10.5202C3.76167
+                8.99521 2.57543 7.35674 2.01803 6.03036C1.75363 5.47002 1.625 4.95224 1.625
+                4.4912C1.625 4.03725 1.75363 3.63295 2.00374 3.2854C2.15381 3.02296 3.36149
+                1.59018 4.42625 1.62565C4.69066 1.65402 4.96221 1.78878 5.22661 2.04413C5.62679
+                2.43424 6.7773 3.84574 6.86306 4.26422C6.96089 4.71509 6.75803 5.07099 6.57526
+                5.39163L6.57526 5.39163L6.56292 5.41328C6.52173 5.48445 6.46588 5.56888 6.40483
+                5.66117L6.40482 5.66118C6.1799 6.0012 5.8843 6.44805 5.99052 6.73257C6.25564
+                7.38512 6.63438 8.02348 7.09102 8.6122C7.59779 9.21811 8.39233 9.98789 8.83538 10.3Z"
                                 stroke="currentColor"
                                 stroke-width="1.5"
                             ></path>
                         </svg>
                     </div>
-                    <p class="text-sm sm:font-semibold sm:text-base">
-                        شماره تلفن :
+                    <p dir="ltr" class="text-sm font-semibold sm:font-semibold sm:text-base">
+                        website designer Hossein :
                         <a href="tel:+989391131209">
-                            <span class="mr-1" dir="ltr">0939-113-1209</span>
+                            <span class="mr-1 hover:text-blue-300" dir="ltr">0939-113-1209</span>
                         </a>
                     </p>
                 </div>
@@ -891,7 +909,7 @@
     </footer>
 
     <img
-        class="h-[660px] md:h-[430px] w-full absolute z-10"
+        class="h-[680px] md:h-[430px] w-full absolute z-10"
         src="https://gamefireball.ir/public/image/footer2.png"
         alt=""
     />

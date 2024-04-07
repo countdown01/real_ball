@@ -12,7 +12,6 @@
 
     <script src="https://cdn.tailwindcss.com"></script>
 
-
     <script>
         tailwind.config = {
             darkMode: "class",
@@ -162,13 +161,13 @@
             <div>
                 <div
                     id=""
-                    class="hidden sm:hidden md:flex md:-mt-[92px] md:mr-12 lg:-mr-10 lg:mb-6 xl:-mr-2 items-center justify-center"
+                    class="hidden sm:hidden md:flex md:-mt-[92px] md:mr-12 lg:-mr-10 lg:mb-6 xl:-mr-28 items-center justify-center"
                 >
                     <p class="-ml-6 md:mb-1 z-50">|</p>
                     <input
                         type="text"
                         placeholder="اسم مطلب مورد نظر را تایپ کنید        "
-                        class="w-80 h-12 font-bold text-center text-black ring-1 ring-gray-400 rounded-2xl"
+                        class="w-80 h-10 font-bold text-center text-black ring-1 ring-gray-400 rounded-2xl"
                     />
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -206,14 +205,14 @@
                 </button>
                 <a href="https://gamefireball.ir/resources/views/loginAndRegister.blade.php">
                     <button
-                        class="mr-5 sm:mr-6 md:-mr-16 text-2xl sm:text-xl lg:text-base bg-gradient-to-br from-cyan-400 to-amber-300 dark:bg-white text-white dark:text-black w-28 h-14 sm:w-20 lg:w-24 lg:h-12 rounded-full rounded-tr-md"
+                        class="mr-5 sm:mr-6 md:-mr-16 text-2xl sm:text-xl lg:text-base bg-gradient-to-br from-cyan-400 to-amber-300 dark:bg-white text-white dark:text-black w-28 h-14 sm:w-20 lg:w-20 lg:h-10 rounded-full rounded-tr-md"
                     >
                         ثبت نام
                     </button>
                 </a>
                 <a href="https://gamefireball.ir/resources/views/loginAndRegister.blade.php">
                     <button
-                        class="mr-2 ml-10 md:-mr-7 pb-3 md:pb-0 lg:ml-2 text-3xl sm:text-xl lg:text-base bg-slate-800 text-white dark:text-black dark:bg-white rounded-full rounded-tl-md rounded-r-sm w-28 h-14 sm:w-24 lg:w-24 lg:h-12 border-4 border-stone-400 pl-2"
+                        class="mr-2 ml-10 md:-mr-7 pb-3 md:pb-0 lg:ml-2 text-3xl sm:text-xl lg:text-base bg-slate-800 text-white dark:text-black dark:bg-white rounded-full rounded-tl-md rounded-r-sm w-28 h-14 sm:w-24 lg:w-20 lg:h-10 border-4 border-stone-400 pl-2"
                     >
                         ورود
                     </button>
@@ -398,7 +397,7 @@
                 class="w-20 h-32 right-2 -top-2 absolute border-4 border-white rounded-lg mr-24"
             ></div>
         </div>
-        <div>
+        <div class="mr-0 lg:-mr-28">
             <h1
                 class="mr-14 text-biscay-700 text-gray-700 dark:text-white text-6xl max-w-178"
                 dir="rtl"
@@ -415,7 +414,7 @@
         </div>
     </div>
     <div
-        class="w-[750px] sm:w-[650px] md:w-[800px] relative flex justify-end items-center space-x-20 mr-28"
+        class="w-[750px] sm:w-[650px] md:w-[800px] relative flex justify-end items-center space-x-20 mr-28 lg:ml-96 lg:-mt-10"
     >
         <span
             class="text-gray-900 dark:text-white text-2xl sm:text-xl lg:text-lg font-bold"
@@ -479,7 +478,7 @@
     </div>
     <!--start swiper-->
     <div
-        class="flex justify-between items-center w-[803px] sm:w-[767px] md:w-[940px] lg:w-[1279px]"
+        class="flex justify-between items-center w-[803px] sm:w-[767px] md:w-[940px] lg:w-[1279px] lg:ml-40"
     >
         <div
             class="overflow-hidden flex items-center justify-center bg-slate-200 w-64 h-72  lg:w-56 lg:h-52 mt-16 ml-28 rounded-xl"
@@ -523,7 +522,7 @@
         </div>
 
         <div
-            class="dark:bg-white bg-gray-800 w-[350px] h-96 lg:w-1/3 lg:h-80 mt-32 mr-10 lg:mr-96 rounded-md overflow-hidden"
+            class="dark:bg-gray-700 bg-white  w-[350px] h-96 lg:w-1/3 lg:h-80 mt-32 mr-10 lg:mr-96 rounded-md overflow-hidden"
         >
 
             <div class="swiper mySwiper6 w-full h-full">
@@ -591,7 +590,7 @@
     </div>
 
     <!--start section play-->
-    <section class="w-[803px] sm:w-[767px] md:w-[940px] lg:w-[1279px]">
+    <section class="w-[803px] sm:w-[767px] md:w-[940px] lg:w-[1279px] lg:ml-14">
         <div class="dark:text-white text-gray-600 grid grid-cols-2 mt-24">
             <div>
                 <button
@@ -619,7 +618,7 @@
                 </button>
             </div>
 
-            <div class="text-white flex items-end justify-end mr-2">
+            <div class="text-white flex items-end justify-end mr-2 ">
                 <div class="flex">
                     <div
                         class="w-2 h-2 rounded-full bg-slate-500 dark:bg-slate-200 mr-1 mb-2"
@@ -643,7 +642,7 @@
         </div>
 
         <div
-            class="flex flex-col items-center justify-center space-y-24 lg:gap-y-0 lg:grid lg:grid-cols-4 mt-16 ml-14"
+            class="flex flex-col items-center justify-center space-y-24 lg:gap-y-0 lg:grid lg:grid-cols-4 mt-16 lg:mt-0 ml-14"
         >
             <div
                 class="bg-white dark:bg-gray-900 w-186 text-2xl lg:w-72 lg:h-[420px] rounded-lg"
@@ -948,17 +947,17 @@
     </div>
     <!--start coment-->
     <section
-        class="w-[840px] sm:w-[830px] md:w-[940px] lg:w-[1373px] xl:w-[1426px] mt-4"
+        class="w-[840px] sm:w-[830px] md:w-[940px] lg:w-[1373px] xl:w-[1438px] mt-14"
     >
-        <div class="grid lg:grid-cols-2 bg-gray-200 pb-5">
+        <div class="grid lg:grid-cols-2 bg-gray-200 dark:bg-gray-600 pb-5">
             <div class="lg:hidden text-center mt-5">
-                <p class="text-gray-900 font-bold text-3xl">
+                <p class="text-gray-900 dark:text-white font-bold text-3xl">
                     در مورد این سایت چه میشنویم؟
                 </p>
-                <p class="text-gray-700 text-2xl lg:text-base mt-4">
+                <p class="text-gray-700 dark:text-white text-2xl lg:text-base mt-4">
                     این ها، بخش خیلی کوچکی از نظراتی هستند که افراد
                 </p>
-                <p class="text-gray-700 text-2xl lg:text-base">
+                <p class="text-gray-700 dark:text-white text-2xl lg:text-base">
                     .مختلف در مورد این سایت دارند
                 </p>
             </div>
@@ -999,7 +998,7 @@
                     <div
                         class="swiper-slide text-xl lg:text-base bg-white text-center pt-5 rounded-md"
                     >
-                        <p class="text-gray-700">
+                        <p class="text-gray-700 ">
                             این سایت شاید تنهاترین مجموعه در ایران باشد، که مود های
                             کاربردی،
                         </p>
@@ -1011,7 +1010,7 @@
                             <div>
                                 <img
                                     class="w-10 h-10 rounded-full mr-56 lg:mr-44"
-                                    src="https://gamefireball.ir/public/image/samp.png"
+                                    src="https://gamefireball.ir/public/image/minecraft.png"
                                     alt=""
                                 />
                             </div>
@@ -1026,21 +1025,22 @@
                 </div>
             </div>
             <div class="hidden lg:block text-end mt-10 mr-14">
-                <p class="text-gray-900 font-bold text-3xl">
+                <p class="text-gray-900 dark:text-white font-bold text-3xl">
                     در مورد این سایت چه میشنویم؟
                 </p>
-                <p class="text-gray-700 mt-4">
+                <p class="text-gray-700 dark:text-white mt-4">
                     این ها، بخش خیلی کوچکی از نظراتی هستند که افراد
                 </p>
-                <p class="text-gray-700">.مختلف در مورد این سایت دارند</p>
+                <p class="text-gray-700 dark:text-white">.مختلف در مورد این سایت دارند</p>
             </div>
         </div>
     </section>
 </main>
 
+
 <!--start footer-->
 <div
-    class="relative w-[840px] sm:w-[830px] md:w-[940px] lg:w-[1373px] xl:w-[1426px]"
+    class="relative w-[840px] sm:w-[830px] md:w-[940px] lg:w-[1373px] xl:w-[1438px]"
     dir="rtl"
 >
     <footer
@@ -1175,9 +1175,9 @@
                     class="mt-4 md:mt-0 space-y-2 flex flex-col ml-4 items-end justify-end"
                 >
                     <div>
-                        تلفن :
-                        <a href="tel:+989389725209">
-                            <span class="mr-1 font-bold hover:text-blue-300" dir="ltr">0938-972-5209</span>
+                        تلفن مدیر سایت :
+                        <a href="tel:+989309977430">
+                            <span class="mr-1 font-bold hover:text-blue-300" dir="ltr">0930-997-7430</span>
                         </a>
                     </div>
 
@@ -1233,8 +1233,8 @@
                             ></path>
                         </svg>
                     </div>
-                    <p class="text-sm sm:font-semibold sm:text-base">
-                        شماره تلفن :
+                    <p dir="ltr" class="text-sm sm:font-semibold sm:text-base">
+                        website designer Hossein :
                         <a href="tel:+989391131209">
                             <span class="mr-1 hover:text-blue-300" dir="ltr">0939-113-1209</span>
                         </a>

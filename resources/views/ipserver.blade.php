@@ -379,19 +379,19 @@
             class="flex text-3xl sm:text-base overflow-hidden relative   items-center justify-center bg-slate-200 w-210 h-20 sm:w-96 sm:h-14 md:w-64 md:h-14 rounded-xl"
         >
             <p class="text-white z-50">جهت تبلیغ در این کادر کلیک کنید</p>
-            <img class="w-full absolute h-full" src="https://gamefireball.ir/public/image/6.png" alt="">
+            <img class="w-full absolute h-full" src="https://gamefireball.ir/public/image/picture2.webp" alt="">
         </div>
         <div
             class="flex text-3xl sm:text-base overflow-hidden relative   items-center justify-center bg-slate-200 w-210 h-20 sm:w-96 sm:h-14 md:w-64 md:h-14 rounded-xl"
         >
             <p class="text-white z-50">جهت تبلیغ در این کادر کلیک کنید</p>
-            <img class="w-full absolute h-full" src="https://gamefireball.ir/public/image/4.png" alt="">
+            <img class="w-full absolute h-full" src="https://gamefireball.ir/public/image/picture4.webp" alt="">
         </div>
         <div
             class="flex text-3xl sm:text-base overflow-hidden relative   items-center justify-center bg-slate-200 w-210 h-20 sm:w-96 sm:h-14 md:w-64 md:h-14 rounded-xl"
         >
             <p class="text-white z-50">جهت تبلیغ در این کادر کلیک کنید</p>
-            <img class="w-full absolute h-full" src="https://gamefireball.ir/public/image/2.png" alt="">
+            <img class="w-full absolute h-full" src="https://gamefireball.ir/public/image/picture1.jpg" alt="">
         </div>
     </div>
 
@@ -401,27 +401,21 @@
         <div class="swiper mySwiper6 w-full h-full md:h-80" dir="rtl">
             <div class="swiper-wrapper">
                 <div class="swiper-slide relative">
-                    <img class="w-full h-full absolute" src="https://gamefireball.ir/public/image/6.png" alt=""/>
+                    <img class="w-full h-full absolute" src="https://gamefireball.ir/public/image/picture1.jpg" alt=""/>
                     <p class="z-50 text-white text-2xl">جهت تبلیغ در این کادر کیلک کنید</p>
                 </div>
                 <div class="swiper-slide relative">
-                    <img class="w-full h-full absolute" src="https://gamefireball.ir/public/image/4.png" alt=""/>
+                    <img class="w-full h-full absolute" src="https://gamefireball.ir/public/image/picture2.webp"
+                         alt=""/>
                     <p class="z-50 text-white text-2xl">جهت تبلیغ در این کادر کیلک کنید</p>
                 </div>
                 <div class="swiper-slide relative">
-                    <img class="w-full h-full absolute" src="https://gamefireball.ir/public/image/3.png" alt=""/>
+                    <img class="w-full h-full absolute" src="https://gamefireball.ir/public/image/picture3.webp"
+                         alt=""/>
                     <p class="z-50 text-white text-2xl">جهت تبلیغ در این کادر کیلک کنید</p>
                 </div>
                 <div class="swiper-slide relative">
-                    <img class="w-full h-full absolute" src="https://gamefireball.ir/public/image/2.png" alt=""/>
-                    <p class="z-50 text-white text-2xl">جهت تبلیغ در این کادر کیلک کنید</p>
-                </div>
-                <div class="swiper-slide relative">
-                    <img class="w-full h-full absolute" src="https://gamefireball.ir/public/image/1.png" alt=""/>
-                    <p class="z-50 text-white text-2xl">جهت تبلیغ در این کادر کیلک کنید</p>
-                </div>
-                <div class="swiper-slide relative">
-                    <img class="w-full h-full absolute" src="https://gamefireball.ir/public/image/2.png" alt=""/>
+                    <img class="w-full h-full absolute" src="https://gamefireball.ir/public/image/picture4.webp" alt=""/>
                     <p class="z-50 text-white text-2xl">جهت تبلیغ در این کادر کیلک کنید</p>
                 </div>
             </div>
@@ -436,7 +430,7 @@
                 <div class="swiper-slide  relative">
                     <img
                         class="w-full h-full absolute"
-                        src="https://gamefireball.ir/public/image/1.png"
+                        src="https://gamefireball.ir/public/image/picture4.webp"
                         alt=""
                     />
                     <p class="z-50 text-white">جهت تبلیغ در این کادر کلیک کنید</p>
@@ -444,7 +438,7 @@
                 <div class="swiper-slide relative">
                     <img
                         class="w-full h-full absolute"
-                        src="https://gamefireball.ir/public/image/6.png"
+                        src="https://gamefireball.ir/public/image/picture3.webp"
                         alt=""
                     />
                     <p class="z-50 text-white">جهت تبلیغ در این کادر کلیک کنید</p>
@@ -452,7 +446,7 @@
                 <div class="swiper-slide relative">
                     <img
                         class="w-full h-full absolute"
-                        src="https://gamefireball.ir/public/image/4.png"
+                        src="https://gamefireball.ir/public/image/picture2.webp"
                         alt=""
                     />
                     <p class="z-50 text-white">جهت تبلیغ در این کادر کلیک کنید</p>
@@ -460,7 +454,7 @@
                 <div class="swiper-slide relative">
                     <img
                         class="w-full h-full absolute"
-                        src="https://gamefireball.ir/public/image/2.png"
+                        src="https://gamefireball.ir/public/image/picture1.jpg"
                         alt=""
                     />
                     <p class="z-50 text-white">جهت تبلیغ در این کادر کلیک کنید</p>
